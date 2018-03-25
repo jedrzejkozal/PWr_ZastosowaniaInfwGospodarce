@@ -114,13 +114,83 @@ Projekt został zrealizowany z wykorzystaniem języka C\# oraz frameworka ASP.NE
 	\caption{Podstawowy schemat działania aplikacji korzystającej z .NET MVC.}
 \end{figure}
 
+\subsubsection{Wykorzystane dobre praktyki}
+
+W trakcie projektu przyjęto metodologię SOLID, oraz fragmenty metodologii Clean Code. Pozwala to na stworzenie łatwo rozszerzalnego kodu, który jest utrzymywalny i dobrze zorganizowany.
+
 \section{Projekt systemu}
 
 \subsection{Architektura systemu}
 
+W niniejszym rozdziale przedstawiono ogólny przegląd architektury całej aplikacji, opartej na zalecanych sposobach pracy z wybranymi narzędziami.
 
+\subsubsection{ASP.NET MVC}
+
+Projekty wykonywane w frameworku ASP.NET MVC wymuszają pewną organizację projektu, która zwiększa uporządkowanie oraz wymusza korzystanie z dobrych praktyk. W projekcie można wyróżnić 4 zasadnicze części: Views, Controllers, Models i Router. Poniżej przedstawiono krótki opis poszczególnych części.
+
+\paragraph{Model}
+Modele są odpowiedzialne za przechowywanie informacji domenowej i stanu aplikacji. Najczęściej są implementowane jako Plain Old CLR Object (POCO) i służą do modelowania danych z bazy. Obiekty te są niezależne od frameworków, systemu zarządzania bazą danych czy mapowań ORM. Modele mogą być łączone w ViewModele, aby ułatwić grupowanie i przekazywanie informacji w aplikacji.
+
+\paragraph{View}
+Jest to frontendowa część projektu, która determinuje wygląd strony pokazywanej użytkownikowi. Technologie wykorzystywane w tym obszarze to HTML, CSS oraz JavaScript. Dodatkowo do widoku są przesyłane dane z innych komponentów w postaci modeli lub viewmodeli. ASP.NET MVC umożliwia dodawanie fragmentów kodu w C\# do ułatwienia wykorzystywania danych z modeli.
+
+\paragraph{Controler}
+Najczęściej jest to element implementujący wybraną część logiki biznesowej. Wykorzystuje dane z Modeli, aby wytworzyć i przekierować użytkownika do odpowiedniego Widoku. Każdy controler jest odpowiedzialny za obsługę HTTP Request. Taka organizacja wymusza podział projektu na mniejsze klasy z dobrze zdefiniowanym zakresem odpowiedzialności.
+
+\paragraph{Router}
+Jest to komponent, który odpowiada za mapowanie zapytań HTTP na poszczególne akcje w kontrolerach.
+\\\\
+Pierwsze trzy komponenty są dobrze znane ze wzorca projektowego na Model-View-Controler, natomiast ostatni jest często spotykanym dodatkiem w wielu frameworkach sieciowych, umożliwiający łatwe mapowanie. Konstrukcja frameworku MVC pozwala na łatwe rozdzielenie odpowiedzialności komponentów i klas oraz wstrzykiwanie zależności do poszczególnych klas.
+
+\subsubsection{Onion architecture}
+
+\begin{figure}
+\centering
+	\includegraphics[width=0.50\textwidth]{onion.png}
+	\caption[caption]{Warstwy w onion architecture.\\\hspace{\textwidth}Źródło: https://www.c-sharpcorner.com/article/onion-architecture-in-asp-net-core-mvc/}
+	\label{fig:onion}
+\end{figure}
+
+Onion architecture jest typem architektury mający ułatwić uniknięcie silnych powiązań w kodzie (angl. tightly coupling). Projekt aplikacji wykorzystujący wzorzec Model-View-Controller pozwala łatwo rozdzielić odpowiedzialności między klasy i komponenty, ale nie rozwiązuje problemu mocnych powiązań.
+
+W założeniu aplikacja dzieli się na kilka warstw, które zostały przedstawione na rysunku \ref{fig:onion}. Cała koncepcja opiera się mocno na Dependency inversion (D z mnemonika SOLID). Najbardziej wewnętrzną warstwę tworzą Domain Entities, które przechowują informację na temat obiektów związanych z domeną aplikacji. Implementowane w postaci obiektów POCO  pozwalające na wydobywanie informacji z frameworków ORM. Obiekty te nie powinny być zależne od innych, jednocześnie mogą być wykorzystywane w komunikacji między innymi komponentami, stąd stanowią centrum onion architecture. Repository Layer odpowiada za stworzenie abstrakcji oddzielającej logikę biznesową od danych z poprzediej wartswy. Najbardziej zewnętrzne warstwy oprogramowania to Service Layer zawierająca logikę biznesową oraz UI Layer odpowiadająca za komunikację z użytkownikiem.
+
+
+\subsection{Projekt frontendu}
+Do zdecydowania, czy ta sekcja powinna być zawarta w dokumentacji.
+Co mogłoby się w niej znaleźć:
+Ogólne overwiev, jakie ma być user expierience, jakaś idea stojąca za projektem frontendu?
+
+\subsection{Projekt bazy danych}
+To do:
+Schemat tabel
 
 \section{Podsumowanie i wnioski}
+
+
+\newpage
+\begin{thebibliography}{9}
+
+\bibitem{oficjalna strona}
+Oficjalna strona ASP.NET MVC
+\\\texttt{https://www.asp.net/mvc}
+
+\bibitem{oficjalna dokumentacja}
+Oficjalna dokumentacja ASP.NET MVC
+\\\texttt{https://docs.microsoft.com/pl\-pl/aspnet/\#pivot\=core\&panel\=core\_overview}
+
+\bibitem{organizacja projektu}
+Mosh Hamedani
+\textit{Should you split your ASP.NET MVC project into multiple projects?}.
+\\\texttt{https://programmingwithmosh.com/csharp/should-you-split-your\\-asp-net-mvc-project-into-multiple-projects/}
+
+\bibitem{organizacja projektu}
+Sandeep Singh Shekhawat
+\textit{Onion Architecture In ASP.NET Core MVC}
+\\\texttt{https://www.c-sharpcorner.com/article/onion-architecture-in-\\asp-net-core-mvc/}
+
+\end{thebibliography}
+
 
 
 \end{document}
