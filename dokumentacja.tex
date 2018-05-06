@@ -82,6 +82,51 @@ Główną grupą docelową naszego produktu są restauratorzy oraz obsługa rest
 
 \subsubsection{Podstawowe przypadki użycia}
 
+Użytkowników aplikacji można podzielić na 3 grupy. Każda z grup posiada własne przypadki użycia.
+\begin{enumerate}
+\item klient restauracji, niezalogowany użytkownik
+\begin{enumerate}
+	\item przeglądanie profilu restauracji \\
+	Niezalogowany użytkownik może wyświetlać profil restauracji i ma dostęp do wszystkich informacji zawartych w profilu.
+	\item rejestracja \\
+	Większość przypadków użycia jest dostępnych po rejestracji i zalogowaniu.
+\end{enumerate}
+	\item klient restauracji, zalogowany użytkownik
+\begin{enumerate}
+	\item złożenie rezerwacji \\
+	Klient ma możliwość wyboru daty i godziny rezerwacji. Na podstawie informacji o dostępności stolików system daje informację zwrotną, czy rezerwacja w wybranych godzinach jest możliwa. Klient dokonuje rezerwacji, która następnie musi być zatwierdzona przez restaurację.
+	\item dodawanie opinii o restauracji \\
+	Użytkownik ma możliwość dodatnia opinii, która będzie widoczna dla wszystkich użytkowników w profilu wybranej restauracji.
+	\item przeglądanie dodanych opinii \\
+	Klient ma dostęp do wcześniej dodanych opinii w swoim profilu.
+	\item przeglądanie ulubionych restauracji \\
+	Na podstawie historii rezerwacji prezentowana jest lista ulubionych restauracji, która jest prezentowana użytkownikowi po zalogowaniu.
+	\item przeglądanie historii rezerwacji \\
+	Użytkownik ma dostęp do historii własnych rezerwacji.
+	\item wysyłanie wiadomości do restauracji \\
+	Klient może się komunikować bezpośrednio z restauracją przez stronę internetową.
+	\item polecane restauracje \\
+	Na postawie historii rezerwacji, oraz preferencji użytkowników o podobnych cechach prezentowana jest lista restauracji, które mogą się spodobać użytkownikowi. Do wyznaczania listy stosuje się algorytm kNN.
+\end{enumerate}
+\item restaurator
+\begin{enumerate}
+	\item zmiana informacji odnośnie restauracji \\
+	Restaurator posiada możliwość zmiany danych prezentowanych na profilu restauracji. Zaliczają się do nich informacje o nazwie, adresie i zdjęcia. Restaurator nie ma wpływu na opinie widoczne na profilu jego restauracji.
+	\item potwierdzenie rezerwacji \\
+	Po złożeniu rezerwacji przez użytkownika, musi zostać ona zatwierdzona przez restaurację. W trakcie ewaluacji danej rezerwacji pomocne może być przeglądanie profilu klienta.
+	\item wysłanie wiadomości do klienta
+	Opcja bezpośredniej komunikacji przez stronę internetową.
+	\item przeglądanie profilu klienta
+	Restaurator ma dostęp do profilu klienta.
+\end{enumerate}
+\item administrator
+\begin{enumerate}
+	\item dodanie restauracji
+	Dodawanie restauracji powinno być kontrolowane, aby uniknąć udostępniania nieprawdziwych bądź niewłaściwych informacji użytkownikom. W celu ułatwienia procesu weryfikacji danych, tylko administrator ma możliwość dodania restauracji do systemu.
+	\item pełny dostęp do bazy danych
+	Administrator może dodawać, usuwać, modyfikować i odczytywać wszystkie tabele w bazie. 
+\end{enumerate}
+\end{enumerate}
 
 
 \subsection{Wymagania niefunkcjonalne}
