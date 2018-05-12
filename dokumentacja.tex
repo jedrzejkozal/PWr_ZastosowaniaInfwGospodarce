@@ -5,6 +5,7 @@
 \usepackage{graphicx}
 \usepackage{xcolor}
 \usepackage{float}
+\usepackage{caption}
 
 \title{Dokumentacja projektowa}
 \date{2018-03-18}
@@ -100,7 +101,49 @@ Wymienione w poprzednim paragrafie serwisy nie występują w Polsce, lub są sł
 
 Główną grupą docelową naszego produktu są restauratorzy oraz obsługa restauracji z dużą liczbą rezerwacji. Dzięki przygotowanej aplikacji mogą skorzystać z najnowszych rozwiązań technicznych, aby lepiej zarządzać swoją dostępnymi miejscami, oraz personelem. Zintegrowanie opracowanego systemu z innymi systemami umożliwiającymi zarządzanie personelem, kosztami czy zamówieniami znacząco ułatwiałoby zarządzanie i podejmowanie właściwych decyzji na poziomie managerskim. 
 \subsection*{Ryzyka projektu}
-{\color{red}\textbf{TODO: @Piotr ryzyka, tabelka czy co tam bylo}}
+
+W projektcie przyjęto oszacowanie ryzyka na podstawie określinia poziomu ryzyka jako iloczynu prawdopodobieństwa wystąpienia i stopnia ryzyka. Wyróżniono następujące prawdopodobieństwa wystąpienia:
+
+\begin{enumerate}
+\item prakycznie niemożliwe
+\item bardzo mało prawdopodobne
+\item zdarza się rzadko
+\item może się zdarzyć
+\item duże prawdopodobieństwo zdarzenia
+\end{enumerate}
+
+Wyróżniono następujące stopnie ryzyka:
+
+\begin{enumerate}
+	\item bardzo mały
+	\item mały
+	\item średni
+	\item duży
+	\item bardzo duży
+\end{enumerate}
+
+Stosując opisaną metodykę, wybrano kila najważniejszych czynników i oszacowano poziom ryzyka.
+
+\newpage
+
+\begin{center}
+\captionof{table}{oszacowanie poziomu ryzyka}
+	\begin{tabular}{|p{4cm}|l|l|l|}
+		\hline
+		Ryzyko & P(w)  & Stopień ryzyka & poziom ryzyka \\ \hline
+		Nie zaimplementowanie funkcji ze względu na napotkane problemy & 4 & 4 & 16 \\ \hline
+		Złe oszacowanie harmonogramu projektu (diagram Gantta)  & 3 & 4 & 12 \\ \hline
+		Brak współpracy w zespole , Problem z komunikacją & 4 & 4 & 16 \\ \hline
+		Awaria sprzętu & 3 & 4 & 12 \\ \hline
+		Zdarzenia przy projekcie (Utrata danych, złośliwe oprogramowanie , brak zasilania) & 2 & 4 & 8 \\ \hline
+		Źle dobrane technologie & 2 & 4 & 8 \\ \hline
+		Przekroczenie budżetu & 4 & 4 & 16 \\ \hline
+		Złe decyzje projektowe podjęte na początku, mające duży wpływ na ostatnią fazę projektu i powodujące zmiany w systemie & 4 & 5 & 20 \\ \hline
+		Niedostateczne zabezpieczenie danych & 4 & 4 & 16 \\ \hline
+		Kłopoty związane z regulacjami prawnymi & 2 & 4 & 8 \\ \hline
+\end{tabular}
+\end{center}
+
 
 \subsection{Wymagania funkcjonalne}
 
