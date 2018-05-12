@@ -152,34 +152,34 @@ Projekt został zrealizowany z wykorzystaniem języka C\# oraz frameworka ASP.NE
 	\caption{Wykorzystane technologie.}
 	\label{fig:technologie}
 \end{figure}
-
 \begin{itemize}
-
-\item Język programowania C\# \\\\
+\item \textbf{Język programowania C\#} \\\\
 C\# jest obiektowym językiem programowania, który oficjalnie przedstawiony został w 2000 roku. Powstał na zlecenie firmy Microsoft, aby ułatwić tworzenie oprogramowania dla systemu operacyjnego Windows. W początkowej fazie swojego istnienia język był wspierany wyłącznie przez Microsoft, dlatego też rozpatrując język nieodzownym elementem było platforma programistyczna .NET. Jednak jego dobrze przemyślana struktura sprawiła, że język stał się popularny i powstało dla niego kilka open source standardów (m.in. Mono). Od 2016 roku Microsoft zmieniło swoją politykę i stworzyło .Net Core, które stało się praktycznie w pełni open source projektem. 
 
-\item Platforma .NET \\\\
+\item \textbf{Platforma .NET} \\\\
 Do roku 2016 .NET rozwijały się dwa podejścia co do środowisk uruchomieniowych, czyli oficjalną
 wersję opublikowaną przez Microsoft, jak i tworzoną przez pasjonatów wersja open source. Jednak wraz z
 publikacją .NET Core 1.0 rozwój platformy został połączony w jedno. Wprowadzono ujednolicony standard
 platformy (.NET Standard Library). Dzięki temu tworzone od teraz biblioteki są możliwe w użyciu również dla .NET Core, Xamarin i .NET Framework. Platforma .NET wspiera nie tylko język C\# ale również takie języki jak m.in. F\#, Visual Basic, C++. .NET Framework udostępnia specyficzne dla systemu operacyjnego Windows API takie jak Windows Forms i WPF (tworzenie aplikacji okienkowych). .NET Core zakłada całkiem odmienne podejście do przeznaczenia od wcześniejszego standardu. Głównym
 założeniem jest wieloplatformowość. Przykładem API są: ASP.NET Core (aplikacje webowe) oraz Universal Windows Platform (docelowo reużywalne oprogramowanie działające zarówno na komputerach, urządzeniach mobilnych, jak i dla aplikacji wspierający Internetu rzeczy itd.). Mono for Xamarin w tej chwili wersja .NET dla aplikacji działających pod iOS oraz Android. Historycznie opensource’owa wersja standardu .NET Framework.
-\item ASP.NET Core 2.0 \\\\
+\item \textbf{ASP.NET Core 2.0} \\\\
 ASP.NET to API umożliwiające tworzenie aplikacji webowych\cite{asp}, czyli takie, które do swojego działania potrzebują jedynie przeglądarki internetowej. Nie wymagają od użytkownika instalowania zewnętrznego oprogramowania. Dzięki temu stworzone aplikację działają na wielu platformach jednocześnie. Dodatkowo wszelkie zmiany wprowadzane są wyłącznie po stronie serwera (nie angażują użytkownika). Do głównych elementów API zaliczamy: Web Forms, MVC (MVC + Web Page + Web API) oraz SignalR. Wprowadzenie standardu .NET Core uporządkowało kwestie związane z różnym podejściem tworzenia aplikacji webowych. Web Forms oraz Web Page praktycznie przestały istnieć.
 
-\item Bootstrap \\\\
+\item \textbf{Entity Framework Core} \\\\
+Entity Framework Core to narzędzie pozwalające przetłumaczyć relacyjne bazy danych na obiekty. Narzędzia
+te nazywamy ORM (Object Relational Mapping). Dzięki temu podejściu można tworzyć bazy danych bez użycia języka SQL. Ułatwia to zarządzanie danymi oraz przyspiesza pracę z nimi. Ponadto biblioteka ta zapewnia wsparcie nie tylko na poziomie tworzenia zapytań, ale również dzięki podejściu Code First możemy zaprojektować relacyjną bazę danych z poziomu języka obiektowego. Entity Framework pozwala także tworzyć automatycznie obiekty na podstawie już istniejącej bazy. Ostatnim wspieranym podejściem jest tworzenie bazy przy pomocy podejście Model first polegające na stworzeniu modelu w ADO.NET Entity Data Model Designer, a następnie Entity Framework tłumaczy go na obiekty oraz relacyjną bazę danych.
+
+\item \textbf{Bootstrap} \\\\
 Biblioteka zapewniająca głównie style CSS, ale również określa ich zachowanie (wykorzystuje JavaScript). Główną zaletą Bootstrap jest to, że wspomaga tworzenie responsywnych aplikacji webowych, to znaczy, że powinny dobrze wyglądać nie tylko na monitorze, ale również na tablecie, czy telefonie komórkowym. Pomaga w kontrolowaniu zachowania gotowych komponentów HTML.
 
-\item jQuery \\\\
+\item \textbf{jQuery} \\\\
 JQuery jest biblioteką JavaScript ułatwiająca manipulacją drzewa DOM (Document Object Mode).
 Wykorzystanie jQuery eliminuję problem interpretacji kodu JS przez różne przeglądarki. Jego niewątpliwą
 zaletą jest wbudowanie AJAX. Sprawia, że opisane rozwiązanie jest czytelniejsze oraz wprowadza uproszczone
 odwołanie się do elementów strony, oraz wykorzystania AJAX.
 
-\item Entity Framework Core \\\\
-Entity Framework Core to narzędzie pozwalające przetłumaczyć relacyjne bazy danych na obiekty. Narzędzia
-te nazywamy ORM (Object Relational Mapping). Dzięki temu podejściu można tworzyć bazy danych bez użycia języka SQL. Ułatwia to zarządzanie danymi oraz przyspiesza pracę z nimi. Ponadto biblioteka ta zapewnia wsparcie nie tylko na poziomie tworzenia zapytań, ale również dzięki podejściu Code First możemy zaprojektować relacyjną bazę danych z poziomu języka obiektowego. Entity Framework pozwala także tworzyć automatycznie obiekty na podstawie już istniejącej bazy. Ostatnim wspieranym podejściem jest tworzenie bazy przy pomocy podejście Model first polegające na stworzeniu modelu w ADO.NET Entity Data Model Designer, a następnie Entity Framework tłumaczy go na obiekty oraz relacyjną bazę danych.
-
+\item \textbf{SignalR} \\\\
+SignalR jest biblioteką Microsoft ASP.NET, która pozwala na wysyłanie asynchronicznych powiadomień do aplikacji po stronie klienta. Biblioteka zawiera komponenty JavaScript po stronie serwera i po stronie klienta. Umożliwia dodanie funkcjonalności do aplikacji w czasie rzeczywistym. 
 \end{itemize}
 
 \subsubsection{Wykorzystane dobre praktyki}
@@ -223,10 +223,10 @@ Wzorzec programowania oparty na architekturze warstwowej (ang. tier architectrue
 \end{figure}
 
 \begin{itemize}
-\item Warstwa prezentacji ang. presentation tie - odpowiedzialna za przedstawienie funkcjonalności użytkownikowi, umożliwiająca wyświetlanie oraz wprowadzanie danych. W tej warstwie ASP.NET używa się oprócz języka platformy (np. C\#) języków do opisów wyglądu strony (CSS, HTML, JavaScript). 
-\item Warstwa biznesowa (ang. business tier) - w miejscu tym umieszczona jest logika aplikacji. Dane pozyskane z warstwy danych są przetwarzane by były w odpowiedni sposób przygotowane do wysyłania do warstwy prezentacji, jak również pozyskane od użytkownika przekształcane są w oczekiwanej formie, transportowane są do warstwy danych.
+\item \textbf{Warstwa prezentacji ang. presentation tie} - odpowiedzialna za przedstawienie funkcjonalności użytkownikowi, umożliwiająca wyświetlanie oraz wprowadzanie danych. W tej warstwie ASP.NET używa się oprócz języka platformy (np. C\#) języków do opisów wyglądu strony (CSS, HTML, JavaScript). 
+\item \textbf{Warstwa biznesowa (ang. business tier)} - w miejscu tym umieszczona jest logika aplikacji. Dane pozyskane z warstwy danych są przetwarzane by były w odpowiedni sposób przygotowane do wysyłania do warstwy prezentacji, jak również pozyskane od użytkownika przekształcane są w oczekiwanej formie, transportowane są do warstwy danych.
 
-\item Warstwa danych (ang. persistance tier) - odpowiedzialna za komunikacji z zewnętrznymi serwisami zarządzającymi danymi, np. z bazą danych.
+\item \textbf{Warstwa danych (ang. persistance tier)} - odpowiedzialna za komunikacji z zewnętrznymi serwisami zarządzającymi danymi, np. z bazą danych.
 \end{itemize}
 
 Dzięki zastosowaniu tego podejściu zyskujemy łatwość modyfikacji poszczególnych funkcjonalności, ponieważ zmiana w jednej warstwie nie wymusza zmian w całym systemie. Inną zaletą jest fakt, iż tworzone rozwiązania stają się bardziej przejrzyste. Za używaniem tego sposobu projektowania aplikacji przemawia to, że tę samą logikę możemy wykorzystać zarówno przy tworzeniu aplikacji internetowych jak i mobilnych. Wykorzystanie architektury warstwowej pozwala na reużywalność zaimplementowanych komponentów oraz ogranicza liczbę błędów (poprzez użycie wstrzykiwania zależności lub interfejsów), poza bieżącą warstwą nie ma dostępu do wewnętrznych metod. W stworzonym systemie oprócz przedstawionego podziału wprowadzono dodatkowy element przytrzymujący modele wykorzystywane między warstwami. Ich szczególnym przykładem są modele DAO, które używane są wyłącznie przez warstwę danych do komunikacji z bazą danych (mapowane są one przy użyciu Automappera). Dla realizacji założeń każda warstwa zaimplementowana została w osobnym projekcie.
@@ -258,11 +258,6 @@ Oficjalna dokumentacja ASP.NET MVC
 Mosh Hamedani
 \textit{Should you split your ASP.NET MVC project into multiple projects?}.
 \\\texttt{https://programmingwithmosh.com/csharp/should-you-split-your\\-asp-net-mvc-project-into-multiple-projects/}
-
-\bibitem{organizacja projektu}
-Sandeep Singh Shekhawat
-\textit{Onion Architecture In ASP.NET Core MVC}
-\\\texttt{https://www.c-sharpcorner.com/article/onion-architecture-in-\\asp-net-core-mvc/}
 
 \end{thebibliography}
 

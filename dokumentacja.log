@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.2)  12 MAY 2018 13:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.2)  12 MAY 2018 13:17
 entering extended mode
 **./dokumentacja.tex
 (dokumentacja.tex
@@ -418,11 +418,7 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-(dokumentacja.aux
-
-LaTeX Warning: Label `organizacja projektu' multiply defined.
-
-)
+(dokumentacja.aux)
 \openout1 = `dokumentacja.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
@@ -571,44 +567,49 @@ File: sql.png Graphic file (type png)
  <use sql.png>
 Package pdftex.def Info: sql.png used on input line 150.
 (pdftex.def)             Requested size: 56.9055pt x 14.43863pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 158.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 156.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 158.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 156.
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--160
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 161--167
+Underfull \hbox (badness 10000) in paragraph at lines 156--158
 
  []
 
 
-LaTeX Warning: Citation `asp' on page 5 undefined on input line 168.
+Underfull \hbox (badness 10000) in paragraph at lines 159--165
+
+ []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--169
+LaTeX Warning: Citation `asp' on page 5 undefined on input line 166.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--167
 
  []
 
 [5 <./c_hasztag.png> <./asp_net-MVC.png> <./html.png> <./sql.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 170--172
+Underfull \hbox (badness 10000) in paragraph at lines 168--171
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--178
+Underfull \hbox (badness 10000) in paragraph at lines 172--174
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--182
+Underfull \hbox (badness 10000) in paragraph at lines 175--180
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--183
 
  []
 
@@ -622,10 +623,23 @@ File: ntier.png Graphic file (type png)
  <use ntier.png>
 Package pdftex.def Info: ntier.png used on input line 220.
 (pdftex.def)             Requested size: 172.5pt x 151.71707pt.
- [8 <./ntier.png (PNG copy)>] [9]
+
+Overfull \hbox (0.33516pt too wide) in paragraph at lines 226--227
+[]\OT4/cmr/bx/n/10 Warstwa pre-zen-ta-cji ang. pre-sen-ta-tion tie \OT4/cmr/m/n
+/10 - od-po-wie-dzial-na za przed-
+ []
+
+
+Overfull \hbox (0.19508pt too wide) in paragraph at lines 226--227
+\OT4/cmr/m/n/10 sta-wie-nie funk-cjo-nal-no-±ci u»yt-kow-ni-ko-wi, umo»-li-wia-
+j¡-ca wy-±wie-tla-nie oraz
+ []
+
+[8 <./ntier.png (PNG copy)>] [9]
 LaTeX Font Info:    Try loading font information for OT4+cmtt on input line 251
 .
- ("C:\Program Files\MiKTeX 2.9\tex\latex\polski\ot4cmtt.fd"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\polski\ot4cmtt.fd"
 File: ot4cmtt.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 Overfull \hbox (26.08247pt too wide) in paragraph at lines 254--256
@@ -637,14 +651,11 @@ re[]overview
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
  2096 strings out of 493323
  27852 string characters out of 3139067
- 88864 words of memory out of 3000000
+ 88825 words of memory out of 3000000
  5591 multiletter control sequences out of 15000+200000
  13720 words of font info for 37 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -660,7 +671,7 @@ Program Files/MiKTeX 2.9/fonts/type1/public/pl/plr12.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/pl/plti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/pl/plti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/pltt1
 0.pfb>
-Output written on dokumentacja.pdf (11 pages, 375001 bytes).
+Output written on dokumentacja.pdf (11 pages, 376705 bytes).
 PDF statistics:
  91 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
