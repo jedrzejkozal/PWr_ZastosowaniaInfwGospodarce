@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.2)  12 MAY 2018 14:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.2)  12 MAY 2018 17:18
 entering extended mode
 **./dokumentacja.tex
 (dokumentacja.tex
@@ -435,36 +435,44 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(dokumentacja.aux)
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count88
+\float@exts=\toks17
+\float@box=\box26
+\@float@everytoks=\toks18
+\@floatcapt=\box27
+) (dokumentacja.aux)
 \openout1 = `dokumentacja.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
- ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count88
+\scratchcounter=\count89
 \scratchdimen=\dimen105
-\scratchbox=\box26
-\nofMPsegments=\count89
-\nofMParguments=\count90
-\everyMPshowfont=\toks17
-\MPscratchCnt=\count91
+\scratchbox=\box28
+\nofMPsegments=\count90
+\nofMParguments=\count91
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count92
 \MPscratchDim=\dimen106
-\MPnumerator=\count92
-\makeMPintoPDFobject=\count93
-\everyMPtoPDFconversion=\toks18
+\MPnumerator=\count93
+\makeMPintoPDFobject=\count94
+\everyMPtoPDFconversion=\toks20
 ) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -514,84 +522,84 @@ G,.JBIG2,.JB2,.eps]
 File: logo_pol_wroclaw.png Graphic file (type png)
 
 <use logo_pol_wroclaw.png>
-Package pdftex.def Info: logo_pol_wroclaw.png used on input line 16.
+Package pdftex.def Info: logo_pol_wroclaw.png used on input line 17.
 (pdftex.def)             Requested size: 86.25pt x 86.2489pt.
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./logo_pol_wroclaw.png>] 
 [1]
-Underfull \hbox (badness 10000) in paragraph at lines 68--70
+Underfull \hbox (badness 10000) in paragraph at lines 69--71
 
  []
 
 <firma1.png, id=16, 217.81375pt x 54.2025pt>
 File: firma1.png Graphic file (type png)
  <use firma1.png>
-Package pdftex.def Info: firma1.png used on input line 75.
+Package pdftex.def Info: firma1.png used on input line 76.
 (pdftex.def)             Requested size: 56.9055pt x 14.16013pt.
-LaTeX Font Info:    Try loading font information for OML+plm on input line 76.
+LaTeX Font Info:    Try loading font information for OML+plm on input line 77.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\polski\omlplm.fd"
 File: omlplm.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-LaTeX Font Info:    Try loading font information for OMS+plsy on input line 76.
+LaTeX Font Info:    Try loading font information for OMS+plsy on input line 77.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\polski\omsplsy.fd"
 File: omsplsy.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-LaTeX Font Info:    Try loading font information for OMX+plex on input line 76.
+LaTeX Font Info:    Try loading font information for OMX+plex on input line 77.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\polski\omxplex.fd"
 File: omxplex.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <10> on input line 76.
+(Font)              <10> on input line 77.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <7> on input line 76.
+(Font)              <7> on input line 77.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <5> on input line 76.
+(Font)              <5> on input line 77.
 
 <firma2.png, id=17, 177.66376pt x 57.21375pt>
 File: firma2.png Graphic file (type png)
  <use firma2.png>
-Package pdftex.def Info: firma2.png used on input line 78.
+Package pdftex.def Info: firma2.png used on input line 79.
 (pdftex.def)             Requested size: 56.9055pt x 18.32535pt.
 
 <firma3.png, id=18, 116.435pt x 84.315pt>
 File: firma3.png Graphic file (type png)
  <use firma3.png>
-Package pdftex.def Info: firma3.png used on input line 81.
+Package pdftex.def Info: firma3.png used on input line 82.
 (pdftex.def)             Requested size: 56.9055pt x 41.20662pt.
 
 <firma4.png, id=19, 163.61125pt x 49.18375pt>
 File: firma4.png Graphic file (type png)
  <use firma4.png>
-Package pdftex.def Info: firma4.png used on input line 84.
+Package pdftex.def Info: firma4.png used on input line 85.
 (pdftex.def)             Requested size: 56.9055pt x 17.10649pt.
 
 <konkurencjaTabela.png, id=20, 655.44875pt x 259.97125pt>
 File: konkurencjaTabela.png Graphic file (type png)
 
 <use konkurencjaTabela.png>
-Package pdftex.def Info: konkurencjaTabela.png used on input line 92.
+Package pdftex.def Info: konkurencjaTabela.png used on input line 93.
 (pdftex.def)             Requested size: 327.74895pt x 129.9972pt.
  [2 <./firma1.png> <./firma2.png> <./firma3.png> <./firma4.png> <./konkurencjaT
 abela.png>]
 <use_case.jpg, id=30, 739.76375pt x 815.045pt>
 File: use_case.jpg Graphic file (type jpg)
  <use use_case.jpg>
-Package pdftex.def Info: use_case.jpg used on input line 108.
+Package pdftex.def Info: use_case.jpg used on input line 109.
 (pdftex.def)             Requested size: 310.4979pt x 342.0927pt.
  [3] [4 <./use_case.jpg>]
-Overfull \hbox (5.30621pt too wide) in paragraph at lines 146--148
+Overfull \hbox (5.30621pt too wide) in paragraph at lines 147--149
 []\OT4/cmr/m/n/10 wysªanie wia-do-mo-±ci do klien-ta Opcja bez-po-±red-niej ko-
 mu-ni-ka-cji przez
  []
 
 
-Overfull \hbox (17.66733pt too wide) in paragraph at lines 165--166
+Overfull \hbox (17.66733pt too wide) in paragraph at lines 166--167
 \OT4/cmr/m/n/10 Projekt zo-staª zre-ali-zo-wa-ny z wy-ko-rzy-sta-niem j¦-zy-ka 
 C# oraz fra-me-wor-ka ASP.NET
  []
@@ -599,114 +607,125 @@ C# oraz fra-me-wor-ka ASP.NET
 <c_hasztag.png, id=37, 256.96pt x 256.96pt>
 File: c_hasztag.png Graphic file (type png)
  <use c_hasztag.png>
-Package pdftex.def Info: c_hasztag.png used on input line 170.
+Package pdftex.def Info: c_hasztag.png used on input line 171.
 (pdftex.def)             Requested size: 56.9055pt x 56.90385pt.
 
 <asp_net-MVC.png, id=38, 265.99374pt x 265.99374pt>
 File: asp_net-MVC.png Graphic file (type png)
  <use asp_net-MVC.png>
-Package pdftex.def Info: asp_net-MVC.png used on input line 173.
+Package pdftex.def Info: asp_net-MVC.png used on input line 174.
 (pdftex.def)             Requested size: 56.9055pt x 56.90343pt.
 
 <html.png, id=39, 1027.84pt x 602.25pt>
 File: html.png Graphic file (type png)
  <use html.png>
-Package pdftex.def Info: html.png used on input line 176.
+Package pdftex.def Info: html.png used on input line 177.
 (pdftex.def)             Requested size: 56.9055pt x 33.3398pt.
 
 <sql.png, id=40, 941.5175pt x 238.8925pt>
 File: sql.png Graphic file (type png)
  <use sql.png>
-Package pdftex.def Info: sql.png used on input line 179.
+Package pdftex.def Info: sql.png used on input line 180.
 (pdftex.def)             Requested size: 56.9055pt x 14.43863pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 185.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 186.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 185.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 186.
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--187
+Underfull \hbox (badness 10000) in paragraph at lines 186--188
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 188--194
+Underfull \hbox (badness 10000) in paragraph at lines 189--195
 
  []
 
 
-LaTeX Warning: Citation `asp' on page 6 undefined on input line 195.
+LaTeX Warning: Citation `asp' on page 6 undefined on input line 196.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--196
+Underfull \hbox (badness 10000) in paragraph at lines 195--197
 
  []
 
 [6 <./c_hasztag.png> <./asp_net-MVC.png> <./html.png> <./sql.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 197--200
+Underfull \hbox (badness 10000) in paragraph at lines 198--201
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--203
+Underfull \hbox (badness 10000) in paragraph at lines 202--204
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--209
+Underfull \hbox (badness 10000) in paragraph at lines 205--210
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--212
+Underfull \hbox (badness 10000) in paragraph at lines 211--213
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 238--241
+Underfull \hbox (badness 10000) in paragraph at lines 239--242
 
  []
 
 [8] <ntier.png, id=59, 499.8675pt x 439.6425pt>
 File: ntier.png Graphic file (type png)
  <use ntier.png>
-Package pdftex.def Info: ntier.png used on input line 248.
+Package pdftex.def Info: ntier.png used on input line 249.
 (pdftex.def)             Requested size: 172.5pt x 151.71707pt.
 
-Overfull \hbox (0.33516pt too wide) in paragraph at lines 254--255
-[]\OT4/cmr/bx/n/10 Warstwa pre-zen-ta-cji ang. pre-sen-ta-tion tie \OT4/cmr/m/n
-/10 - od-po-wie-dzial-na za przed-
- []
-
-
-Overfull \hbox (0.19508pt too wide) in paragraph at lines 254--255
-\OT4/cmr/m/n/10 sta-wie-nie funk-cjo-nal-no-±ci u»yt-kow-ni-ko-wi, umo»-li-wia-
-j¡-ca wy-±wie-tla-nie oraz
+Overfull \hbox (4.47292pt too wide) in paragraph at lines 255--256
+\OT4/cmr/m/n/10 j¦-zy-ka plat-for-my (np. C#) j¦-zy-ków do opi-sów wy-gl¡-du st
+ro-ny (CSS, HTML,
  []
 
 [9 <./ntier.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 287--289
+<bazaIdentity.png, id=63, 697.10437pt x 511.9125pt>
+File: bazaIdentity.png Graphic file (type png)
+ <use bazaIdentity.png>
+Package pdftex.def Info: bazaIdentity.png used on input line 271.
+(pdftex.def)             Requested size: 310.4979pt x 228.00734pt.
+
+[10] <bazaStolik.png, id=67, 1690.81688pt x 947.79094pt>
+File: bazaStolik.png Graphic file (type png)
+ <use bazaStolik.png>
+Package pdftex.def Info: bazaStolik.png used on input line 278.
+(pdftex.def)             Requested size: 1690.81276pt x 947.78864pt.
+
+[11 <./bazaIdentity.png>]
+Overfull \vbox (85.28648pt too high) has occurred while \output is active []
+
+
+[12 <./bazaStolik.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 302--304
 
  []
 
-[10] [11]
-LaTeX Font Info:    Try loading font information for OT4+cmtt on input line 305
+[13]
+LaTeX Font Info:    Try loading font information for OT4+cmtt on input line 320
 .
  ("C:\Program Files\MiKTeX 2.9\tex\latex\polski\ot4cmtt.fd"
 File: ot4cmtt.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-Overfull \hbox (26.08247pt too wide) in paragraph at lines 308--310
+Overfull \hbox (26.08247pt too wide) in paragraph at lines 323--325
 \OT4/cmtt/m/n/10 https://docs.microsoft.com/pl-pl/aspnet/#pivot[]core&panel[]co
 re[]overview 
  []
 
-[12] (dokumentacja.aux)
+[14] (dokumentacja.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -715,13 +734,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 2589 strings out of 493323
- 33528 string characters out of 3139067
- 99042 words of memory out of 3000000
- 6072 multiletter control sequences out of 15000+200000
+ 2661 strings out of 493323
+ 34510 string characters out of 3139067
+ 100427 words of memory out of 3000000
+ 6138 multiletter control sequences out of 15000+200000
  13720 words of font info for 37 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,8n,35p,1126b,291s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,9n,35p,1126b,295s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/pl/pltt.enc}{C:/Program Files/Mi
 KTeX 2.9/fonts/enc/dvips/pl/plit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvi
 ps/pl/plrm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/pl/plsc.enc}<C:/Pro
@@ -733,9 +752,9 @@ Program Files/MiKTeX 2.9/fonts/type1/public/pl/plr12.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/pl/plti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/pl/plti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/pltt1
 0.pfb>
-Output written on dokumentacja.pdf (13 pages, 408189 bytes).
+Output written on dokumentacja.pdf (15 pages, 583331 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
+ 116 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 

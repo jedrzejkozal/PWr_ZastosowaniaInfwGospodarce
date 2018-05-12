@@ -4,6 +4,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \usepackage{xcolor}
+\usepackage{float}
 
 \title{Dokumentacja projektowa}
 \date{2018-03-18}
@@ -262,11 +263,25 @@ Dzięki zastosowaniu tego podejściu zyskujemy łatwość modyfikacji poszczegó
 \subsection{Diagram elementów systemu}
 
 {\color{red}\textbf{TODO: @Jędrzej}}
+
 \subsection{Projekt bazy danych}
-
-{\color{red}\textbf{TODO: @Eliza}}
-
-
+Aplikacja wykorzystuje dwie bazy danych. Jedna baza danych (rysunek \ref{fig:tier}) jest używana do zarządzania użytkownikami - dane logowania, ich role i inne dane potrzebne do weryfikacji. Tabele, jak i relacje w tej bazie danych zostały utworzone przy użyciu biblioteki ASP.NET Core Identity ze względu na szereg udostępnianych przez nią rozwiązań m.in. do logowania, rejestracji, przypominania czy resetowania haseł.
+\begin{figure}[H]
+\centering
+	\includegraphics[width=0.90\textwidth]{bazaIdentity.png}
+	\caption{Schemat bazy danych zarządzającej użytkownikami.}
+	\label{fig:baza1}
+\end{figure}
+Drugą bazą danych jest baza zawierająca tabele potrzebne do obsługi aplikacji. Baza danych \ref{fig:baza2} jest powiązana przez unikalne pole \textit{IdentityId} w tabeli \textit{Customers/Restaurants} z polem Email w bazie danych \ref{fig:baza1}.
+\begin{figure}[H]
+\centering
+	\includegraphics[angle=90,origin=c,width=\textwidth]{bazaStolik.png}
+	\caption{Schemat bazy danych aplikacji.}
+	\label{fig:baza2}
+\end{figure}
+\newpage
+\subsection{Algorytm wyszukiwania stolików}
+{\color{red}\textbf{TODO: @Jędrzej}}
 
 \section{Kamienie milowe i plan projektu}
 \subsection{Wykres Gantta}
