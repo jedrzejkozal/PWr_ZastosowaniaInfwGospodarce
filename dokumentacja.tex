@@ -325,14 +325,14 @@ Drugą bazą danych jest baza zawierająca tabele potrzebne do obsługi aplikacj
 
 \newpage
 \subsection{Algorytm wyszukiwania stolików}
-W trakcie składania zamówienia użytkownik aplikacji podaje liczbę osób, dla których mają zostać zarezerowowane miejsca. W celu określenia czy złożenie zamówienia w wybranch godzinach jest możliwe opracowano algorytm, tworzący kombinację stolików dostępnych w wybranym czasie. Wejście alorytmu stanowią:
+W trakcie składania zamówienia użytkownik aplikacji podaje liczbę osób, dla których mają zostać zarezerwowane miejsca. W celu określenia czy złożenie zamówienia w wybranych godzinach jest możliwe opracowano algorytm, tworzący kombinację stolików dostępnych w wybranym czasie. Wejście algorytmu stanowią:
 idRestaracji,
 ilość osób, dla których ma zostać zrealizowana rezerwacja,
 godzina rozpoczęcia rezerwacji oraz
 czas trwania rezerwacji.
 Wyjście algorytmu stanowi lista kombinacji stolików dostępnych w wybranym czasie mogących pomieścić wszystkie osoby, dla których została zrealizowana rezerwacja. 
 
-Przy projektowaniu algorytmu wykorzystano technikę dziel i rządź. Na każdym etapie dokononywano odcięć w celu podziału zadania na mniejsze i lepiej określone problemy.
+Przy projektowaniu algorytmu wykorzystano technikę dziel i rządź. Na każdym etapie dokonywano odcięć w celu podziału zadania na mniejsze i lepiej określone problemy.
 
 \begin{figure}[h]
 \centering
@@ -341,26 +341,26 @@ Przy projektowaniu algorytmu wykorzystano technikę dziel i rządź. Na każdym 
 	\label{fig:alg1}
 \end{figure}
 
-Algorytm w pierwszym kroku (rys. \ref{fig:alg1}) określa czy podana w rezerwacji ilość osób może zostać usadzona przy jednym stoliku. Jeśli tak, sprawdzane jest czy stoliki o pojemności określonej równej ilości osób z rezerwacji są dostępne w wybranym czasie. Jeśli są dostępne algorytm kończy działanie i zwraca znaleziony stolik. Jeśli nie stolik nie jest dostępny, możliwe jest uzyskanie odpowiedniej ilości miejsc poprzez zajęcie mnieszjych stolików (przykładem może być zarezerwowanie dwóch dwuosobowych stolików dla czterech osób). Odpowiedzialna jest za to procedura Znajdź dostępne stoliki opisana poniżej. Procedura ta jest także wywoływana w przypadku gdy ilość osób w zamówieniu jest większa od stolika z największą pojemnością.
+Algorytm w pierwszym kroku (rys. \ref{fig:alg1}) określa czy podana w rezerwacji ilość osób może zostać posadzona przy jednym stoliku. Jeśli tak, sprawdzane jest czy stoliki o pojemności określonej równej ilości osób z rezerwacji są dostępne w wybranym czasie. Jeśli są dostępne algorytm kończy działanie i zwraca znaleziony stolik. Jeśli stolik nie jest dostępny, możliwe jest uzyskanie odpowiedniej ilości miejsc poprzez zajęcie mniejszych stolików (przykładem może być zarezerwowanie dwóch dwuosobowych stolików dla czterech osób). Odpowiedzialna jest za to procedura \textit{Znajdź dostępne stoliki} opisana poniżej. Procedura ta jest także wywoływana w przypadku gdy ilość osób w zamówieniu jest większa od stolika z największą pojemnością.
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 	\includegraphics[width=0.50\textwidth]{algo2.jpg}
 	\caption[caption]{Znajdź dostępne stoliki}
 	\label{fig:alg2}
 \end{figure}
 
-Procedura Znajdź dostępne stoliki określa czy są dostępne kombinacje stolików w podanych przez użytkownika godziny (rys. \ref{fig:alg2}). Jeśli zostanie znaleziona dowolna kombinacja będąca w stanie pomieścić ilość osób z rezerwacji procedura kończy działanie. W przeciwnym wypadku procedura modyfikuje godziny rozpoczęcia rezerwacji - dodaje i odejmuje godzinę od oryginalej godziny ropoczęcia rezerwacji i szuka kombinacji dla zmodyfikowanych dat.
+Procedura \textit{Znajdź dostępne stoliki} określa czy są dostępne kombinacje stolików w podanych przez użytkownika godziny (rys. \ref{fig:alg2}). Jeśli zostanie znaleziona dowolna kombinacja będąca w stanie pomieścić ilość osób z rezerwacji procedura kończy działanie. W przeciwnym wypadku procedura modyfikuje godziny rozpoczęcia rezerwacji - dodaje i odejmuje godzinę od oryginalnej godziny rozpoczęcia rezerwacji i szuka kombinacji dla zmodyfikowanych dat.
 
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 	\includegraphics[width=0.50\textwidth]{algo3.jpg}
 	\caption[caption]{Znajdź dostępne stoliki dla podanych godzin}
 	\label{fig:alg3}
 \end{figure}
 
-Faktyczne szukanie kombinacji (rys. \ref{fig:alg3}) odbywa się z wykorzystaniem słownika mapującego pojemność stolików na listę stolików dostępnych w danym czasie o danej pojemności. Następnie iterując po ilości stolików wyznacza się wszystkie możliwe kombinacje stolików (np. realizując zamówienie dla 10 osób przy użyciu dwóch stolików następujące kombinacje mogą zostać użyte dla zrealizowania zamówienia: {{8,2},{7,3},{6,4},{5,5}}). Dla wyznaczonej kombinacji sprawdza się, czy słownik zawiera odpowiednią ilość stolików dostępnych w danym czasie. Jeśli istnieją wolne stoliki potrzebne do utrzowrzenia danej kombinacji w słowniku, kombinacja zostaje dodana do listy rozwiązań.
+Faktyczne szukanie kombinacji (rys. \ref{fig:alg3}) odbywa się z wykorzystaniem słownika mapującego pojemność stolików na listę stolików dostępnych w danym czasie o danej pojemności. Następnie, iterując po ilości stolików wyznacza się wszystkie możliwe kombinacje stolików (np. realizując zamówienie dla 10 osób przy użyciu dwóch stolików następujące kombinacje mogą zostać użyte dla zrealizowania zamówienia: \{\{8,2\},\{7,3\},\{6,4\},\{5,5\}\}). Dla wyznaczonej kombinacji sprawdza się, czy słownik zawiera odpowiednią ilość stolików dostępnych w danym czasie. Jeśli istnieją wolne stoliki potrzebne do utworzenia danej kombinacji w słowniku, kombinacja zostaje dodana do listy rozwiązań.
 
 \section{Kamienie milowe i plan projektu}
 \subsection{Wykres Gantta}
@@ -372,7 +372,7 @@ Faktyczne szukanie kombinacji (rys. \ref{fig:alg3}) odbywa się z wykorzystaniem
 	\label{fig:gantt}
 \end{figure}
 
-Na rys. \ref{fig:gantt} przedstawiono wykres Gantta orpacowany przed przystąpieniem do pracy nad projektem. Niestety przy opracowaniu tego wykresu poczyniono zbyt optymistyczne założenia, przez co nie udało się zrealizować planu przestawionego na wykresie.
+Na rys. \ref{fig:gantt} przedstawiono wykres Gantta opracowany przed przystąpieniem do pracy nad projektem. Niestety przy opracowaniu tego wykresu poczyniono zbyt optymistyczne założenia, przez co nie udało się zrealizować planu przestawionego na wykresie.
 
 
 \subsection{Rzeczywista kalkulacja kosztów i nakładów pracy}
