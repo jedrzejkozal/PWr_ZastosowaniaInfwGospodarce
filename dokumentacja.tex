@@ -3,6 +3,7 @@
 \usepackage{polski}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
+\usepackage{xcolor}
 
 \title{Dokumentacja projektowa}
 \date{2018-03-18}
@@ -49,7 +50,8 @@ Podstawowy zakres funkcjonalności można rozważać z perspektywy klienta, chc�
 \section{Analiza wymagań}
 
 \subsection{Analiza rynkowa}
-Potencjalna grupa docelowa odbiorców?
+Głównym celem projektu jest ożywienie branży gastronomicznej oraz usprawnienie i automatyzację niektórych procesów w restauracjach. Aplikacja ma na celu częstsze odwiedzanie lokalu przez ludzi, a także do odciążenie właścicieli restauracji i eliminację ksiąg rezerwacyjnych z rezerwacją przez telefon. Aplikacja pozwoli na promocję restauracji poprzez opinie użytkowników czy ilość rezerwacji. Na podstawie ilości rezerwacji w ciągu dnia system może prognozować zapełnienie restauracji, a tym samym dostosować odpowiednią ilość pracowników obsługi restauracji w zależności od dnia tygodnia czy pory dnia. 
+
 \subsubsection{Dostępne rozwiązania}
 
 Na rynku jest dostępnych kilka aplikacji oferujących zbliżony zakres funkcjonalności do przedstawionego. Poniżej przedstawiono pobieżną analizę dostępnych rozwiązań.
@@ -63,14 +65,41 @@ Popularny w polsce serwis do rezerwacji miejsc w restauracjach. W Polsce umożli
 \paragraph{zomato.com}
 
 \paragraph{opentable.com}
-Jest to aplikacja posiadająca najwięszką bazę restauracji (40 000) w 14 krajach. Na Polskim rynku dostępne są jedynie dwie restauracje. 
+Jest to aplikacja posiadająca najwięszką bazę restauracji (40 000) w 14 krajach. Na Polskim rynku dostępne są jedynie dwie restauracje. \\\\
+{\color{red}\textbf{TODO: @Hubert zdjecia tabelka porownujaca, wnioski}}
+
+
+\begin{figure}[h]
+\centering
+		\begin{minipage}{2cm}
+			\includegraphics[width=2cm]{firma1}
+		\end{minipage}
+		\begin{minipage}{2cm}
+			\includegraphics[width=2cm]{firma2}
+		\end{minipage}
+		\begin{minipage}{2cm}
+			\includegraphics[width=2cm]{firma3}
+		\end{minipage}
+		\begin{minipage}{2cm}
+			\includegraphics[width=2cm]{firma4}
+		\end{minipage}
+	\caption{Firmy konkurencyjne.}
+	\label{fig:firmy}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+	\includegraphics[width=0.95\textwidth]{konkurencjaTabela}
+	\caption{Porównanie firm konkurencyjnych.}
+\end{figure}
 
 \subsubsection{Analiza wymagań biznesowych}
 
 Wymienione w poprzednim paragrafie serwisy nie występują w Polsce, lub są słabo rozpowszechnione. W porównaniu do konkurencji podstawową zaletą aplikacji ma być jej niska cena, oraz prostota. Zwiększa to zakres firm, który mogłyby sobie pozwolić na wdrożenie naszej aplikacji, co na dłuższą metę może stanowić o większej popularności.
 
 Główną grupą docelową naszego produktu są restauratorzy oraz obsługa restauracji z dużą liczbą rezerwacji. Dzięki przygotowanej aplikacji mogą skorzystać z najnowszych rozwiązań technicznych, aby lepiej zarządzać swoją dostępnymi miejscami, oraz personelem. Zintegrowanie opracowanego systemu z innymi systemami umożliwiającymi zarządzanie personelem, kosztami czy zamówieniami znacząco ułatwiałoby zarządzanie i podejmowanie właściwych decyzji na poziomie managerskim. 
-
+\subsection*{Ryzyka projektu}
+{\color{red}\textbf{TODO: @Piotr ryzyka, tabelka czy co tam bylo}}
 
 \subsection{Wymagania funkcjonalne}
 
@@ -212,7 +241,6 @@ Pierwsze trzy komponenty są dobrze znane ze wzorca projektowego na Model-View-C
 
 \subsubsection{Architektura warstwowa}
 
-
 Wzorzec programowania oparty na architekturze warstwowej (ang. tier architectrue) jest powszechny w procesie tworzenia aplikacji internetowych. Podejście te rozdziela logikę systemu od interfejsu użytkownika. W podejściu architektury trzywarstwowej wyróżniamy następujące warstwy:
 
 \begin{figure}[h]
@@ -223,7 +251,7 @@ Wzorzec programowania oparty na architekturze warstwowej (ang. tier architectrue
 \end{figure}
 
 \begin{itemize}
-\item \textbf{Warstwa prezentacji ang. presentation tie} - odpowiedzialna za przedstawienie funkcjonalności użytkownikowi, umożliwiająca wyświetlanie oraz wprowadzanie danych. W tej warstwie ASP.NET używa się oprócz języka platformy (np. C\#) języków do opisów wyglądu strony (CSS, HTML, JavaScript). 
+\item \textbf{Warstwa prezentacji (ang. presentation tier)} - odpowiedzialna za przedstawienie funkcjonalności użytkownikowi, umożliwiająca wyświetlanie oraz wprowadzanie danych. W tej warstwie ASP.NET używa się oprócz języka platformy (np. C\#) języków do opisów wyglądu strony (CSS, HTML, JavaScript). 
 \item \textbf{Warstwa biznesowa (ang. business tier)} - w miejscu tym umieszczona jest logika aplikacji. Dane pozyskane z warstwy danych są przetwarzane by były w odpowiedni sposób przygotowane do wysyłania do warstwy prezentacji, jak również pozyskane od użytkownika przekształcane są w oczekiwanej formie, transportowane są do warstwy danych.
 
 \item \textbf{Warstwa danych (ang. persistance tier)} - odpowiedzialna za komunikacji z zewnętrznymi serwisami zarządzającymi danymi, np. z bazą danych.
@@ -231,14 +259,40 @@ Wzorzec programowania oparty na architekturze warstwowej (ang. tier architectrue
 
 Dzięki zastosowaniu tego podejściu zyskujemy łatwość modyfikacji poszczególnych funkcjonalności, ponieważ zmiana w jednej warstwie nie wymusza zmian w całym systemie. Inną zaletą jest fakt, iż tworzone rozwiązania stają się bardziej przejrzyste. Za używaniem tego sposobu projektowania aplikacji przemawia to, że tę samą logikę możemy wykorzystać zarówno przy tworzeniu aplikacji internetowych jak i mobilnych. Wykorzystanie architektury warstwowej pozwala na reużywalność zaimplementowanych komponentów oraz ogranicza liczbę błędów (poprzez użycie wstrzykiwania zależności lub interfejsów), poza bieżącą warstwą nie ma dostępu do wewnętrznych metod. W stworzonym systemie oprócz przedstawionego podziału wprowadzono dodatkowy element przytrzymujący modele wykorzystywane między warstwami. Ich szczególnym przykładem są modele DAO, które używane są wyłącznie przez warstwę danych do komunikacji z bazą danych (mapowane są one przy użyciu Automappera). Dla realizacji założeń każda warstwa zaimplementowana została w osobnym projekcie.
 
-\subsection{Projekt frontendu}
-Do zdecydowania, czy ta sekcja powinna być zawarta w dokumentacji.
-Co mogłoby się w niej znaleźć:
-Ogólne overwiev, jakie ma być user expierience, jakaś idea stojąca za projektem frontendu?
+\subsection{Diagram elementów systemu}
 
+{\color{red}\textbf{TODO: @Jędrzej}}
 \subsection{Projekt bazy danych}
-To do:
-Schemat tabel
+
+{\color{red}\textbf{TODO: @Eliza}}
+
+
+
+\section{Kamienie milowe i plan projektu}
+\subsection{Wykres Gantta}
+
+{\color{red}\textbf{TODO: @Jędrzej}}
+\subsection{Rzeczywista kalkulacja kosztów i nakładów pracy}
+{\color{red}\textbf{TODO: @Jędrzej}}
+
+
+\section{Wdrożenie projektu}
+Aplikacja sieci Web jak i baza danych została wdrożona z użyciem usług Microsoft Azure. Utworzony został serwer SQL zawierający dwie bazy danych (pierwszy zawierający bazę danych użytkowników oraz ich uprawnienia, drugi zawierający pozostałe tabele) oraz serwer aplikacji. Od docelowego użytkownika wymagana jest przeglądarka z dostępem do internetu. Aplikacja webowa została przetestowana w przeglądarce Google Chrome wersji 65 oraz Microsoft Edge 41.
+\subsection{Adres URL}
+Aplikacja jest dostępna pod adresem:
+\begin{center}
+\textit{https://zarezerwujstolik.azurewebsites.net}
+\end{center}
+\subsection{Konta testowe}
+Przygotowane zostały dwa konta testowe:\\\\
+\textbf{Konto restauracji:}
+\begin{center}
+Nazwa użytkownika: restaurant@email.com Hasło: Password1!
+\end{center}
+\textbf{Konto klienta:}
+\begin{center}
+Nazwa użytkownika: client@email.com Hasło: Password1!
+\end{center}
 
 \section{Podsumowanie i wnioski}
 
