@@ -279,38 +279,9 @@ Drugą bazą danych jest baza zawierająca tabele potrzebne do obsługi aplikacj
 	\caption{Schemat bazy danych aplikacji.}
 	\label{fig:baza2}
 \end{figure}
+
 \newpage
 \subsection{Algorytm wyszukiwania stolików}
-{\color{red}\textbf{TODO: @Jędrzej}}
-
-\section{Kamienie milowe i plan projektu}
-\subsection{Wykres Gantta}
-
-{\color{red}\textbf{TODO: @Jędrzej}}
-\subsection{Rzeczywista kalkulacja kosztów i nakładów pracy}
-{\color{red}\textbf{TODO: @Jędrzej}}
-
-
-\section{Wdrożenie projektu}
-Aplikacja sieci Web jak i baza danych została wdrożona z użyciem usług Microsoft Azure. Utworzony został serwer SQL zawierający dwie bazy danych (pierwszy zawierający bazę danych użytkowników oraz ich uprawnienia, drugi zawierający pozostałe tabele) oraz serwer aplikacji. Od docelowego użytkownika wymagana jest przeglądarka z dostępem do internetu. Aplikacja webowa została przetestowana w przeglądarce Google Chrome wersji 65 oraz Microsoft Edge 41.
-\subsection{Adres URL}
-Aplikacja jest dostępna pod adresem:
-\begin{center}
-\textit{https://zarezerwujstolik.azurewebsites.net}
-\end{center}
-\subsection{Konta testowe}
-Przygotowane zostały dwa konta testowe:\\\\
-\textbf{Konto restauracji:}
-\begin{center}
-Nazwa użytkownika: restaurant@email.com Hasło: Password1!
-\end{center}
-\textbf{Konto klienta:}
-\begin{center}
-Nazwa użytkownika: client@email.com Hasło: Password1!
-\end{center}
-
-
-\subsection{Projekt alogrytmu doboru stolików}
 W trakcie składania zamówienia użytkownik aplikacji podaje liczbę osób, dla których mają zostać zarezerowowane miejsca. W celu określenia czy złożenie zamówienia w wybranch godzinach jest możliwe opracowano algorytm, tworzący kombinację stolików dostępnych w wybranym czasie. Wejście alorytmu stanowią:
 idRestaracji,
 ilość osób, dla których ma zostać zrealizowana rezerwacja,
@@ -347,6 +318,32 @@ Procedura Znajdź dostępne stoliki określa czy są dostępne kombinacje stolik
 \end{figure}
 
 Faktyczne szukanie kombinacji (rys. \ref{fig:alg3}) odbywa się z wykorzystaniem słownika mapującego pojemność stolików na listę stolików dostępnych w danym czasie o danej pojemności. Następnie iterując po ilości stolików wyznacza się wszystkie możliwe kombinacje stolików (np. realizując zamówienie dla 10 osób przy użyciu dwóch stolików następujące kombinacje mogą zostać użyte dla zrealizowania zamówienia: {{8,2},{7,3},{6,4},{5,5}}). Dla wyznaczonej kombinacji sprawdza się, czy słownik zawiera odpowiednią ilość stolików dostępnych w danym czasie. Jeśli istnieją wolne stoliki potrzebne do utrzowrzenia danej kombinacji w słowniku, kombinacja zostaje dodana do listy rozwiązań.
+
+\section{Kamienie milowe i plan projektu}
+\subsection{Wykres Gantta}
+
+{\color{red}\textbf{TODO: @Jędrzej}}
+\subsection{Rzeczywista kalkulacja kosztów i nakładów pracy}
+{\color{red}\textbf{TODO: @Jędrzej}}
+
+
+\section{Wdrożenie projektu}
+Aplikacja sieci Web jak i baza danych została wdrożona z użyciem usług Microsoft Azure. Utworzony został serwer SQL zawierający dwie bazy danych (pierwszy zawierający bazę danych użytkowników oraz ich uprawnienia, drugi zawierający pozostałe tabele) oraz serwer aplikacji. Od docelowego użytkownika wymagana jest przeglądarka z dostępem do internetu. Aplikacja webowa została przetestowana w przeglądarce Google Chrome wersji 65 oraz Microsoft Edge 41.
+\subsection{Adres URL}
+Aplikacja jest dostępna pod adresem:
+\begin{center}
+\textit{https://zarezerwujstolik.azurewebsites.net}
+\end{center}
+\subsection{Konta testowe}
+Przygotowane zostały dwa konta testowe:\\\\
+\textbf{Konto restauracji:}
+\begin{center}
+Nazwa użytkownika: restaurant@email.com Hasło: Password1!
+\end{center}
+\textbf{Konto klienta:}
+\begin{center}
+Nazwa użytkownika: client@email.com Hasło: Password1!
+\end{center}
 
 
 \section{Podsumowanie i wnioski}
