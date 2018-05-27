@@ -255,9 +255,6 @@ odwołanie się do elementów strony, oraz wykorzystania AJAX.
 SignalR jest biblioteką Microsoft ASP.NET, która pozwala na wysyłanie asynchronicznych powiadomień do aplikacji po stronie klienta. Biblioteka zawiera komponenty JavaScript po stronie serwera i po stronie klienta. Umożliwia dodanie funkcjonalności do aplikacji w czasie rzeczywistym. 
 \end{itemize}
 
-\subsubsection{Wykorzystane dobre praktyki}
-
-W trakcie projektu przyjęto metodologię SOLID, oraz fragmenty metodologii Clean Code. Pozwala to na stworzenie łatwo rozszerzalnego kodu, który jest utrzymywalny i dobrze zorganizowany.
 
 \section{Projekt systemu}
 
@@ -306,6 +303,148 @@ Dzięki zastosowaniu tego podejściu zyskujemy łatwość modyfikacji poszczegó
 \subsection{Diagram elementów systemu}
 
 {\color{red}\textbf{TODO: @Jędrzej}}
+
+\subsection{Projekt frontendu}
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1.00\textwidth]{screens/index1.png}
+	\caption[caption]{Widok strony głównej.}
+	\label{fig:index}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1.00\textwidth]{screens/index2.png}
+	\caption[caption]{Widok kategorii na stronie głównej.}
+	\label{fig:index_category}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1.00\textwidth]{screens/index3.png}
+	\caption[caption]{Widok miast na stronie głównej.}
+	\label{fig:index_cities}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1.00\textwidth]{screens/index4.png}
+	\caption[caption]{Widok polecanych restauracji.}
+	\label{fig:index_recomended}
+\end{figure}
+
+Na stronie głównej znajdziemy odnośniki do wszystkich części systemu. Pasek nawigacyjny u góry strony pozwala na przełączanie się między widokami i łatwe poruszanie się po stronie. Jest on dostępny we wszystkich widokach w systemie. Widok strony głównej (rys. \ref{fig:index}-\ref{fig:index_recomended}) zawiera informacje na temat dostępnych kategorii, miast oraz polecanych restauracji. Po wybraniu jednej z kategorii (rys. \ref{fig:index_category}) użytkownik jest przekierowany do widoku zawierającego listę restauracji z wybraną kategorią. Analogicznie, po wybraniu miasta (rys. \ref{fig:index_cities}) użytkownik jest przkierowywany do widoku zawierającego listę restauracji w wybranym mieście. Sekcja polecane zawiera listę rekomendowanych restauracji po wybraniu, użytkownik jest przekierowywany do widoku ze szczegółami rezerwacji.
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1.00\textwidth]{screens/register.png}
+	\caption[caption]{Widok rejestracji.}
+	\label{fig:register}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1.00\textwidth]{screens/login.png}
+	\caption[caption]{Widok logowania.}
+	\label{fig:login}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1.00\textwidth]{screens/loged_in.png}
+	\caption[caption]{Pasek nawigacyjny po zalogowaniu.}
+	\label{fig:loged_in}
+\end{figure}
+
+Aby uzyskać możliwość rezerwowania stolików klient musi być zalogowany. W tym celu należy się zalogować (widok na rys. \ref{fig:login}) lub zarejestrować (widok na rys. \ref{fig:register}). Po zalogowaniu fakt nazwa użytkownika będzie widoczna zamiast przycisku zaloguj na pasku nawigacyjnym (rys. \ref{fig:loged_in}).
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1.00\textwidth]{screens/account_profile.png}
+	\caption[caption]{Widok szczegółów konta użytkownika.}
+	\label{fig:account_details}
+\end{figure}
+
+Po zalogowaniu użytkownik może przeglądać szczegóły swoje konta. W pasku nawigacyjnym należy wybrać "Zarządzaj profilem" a następnie z listy wysuwanej "Mój profil", aby zyskać dostęp do danych osobowych, oraz wyboru ulubionych kategorii. W tym samym widoku znajduje się równiej opcja zmiany hasła (rys. \ref{fig:account_details}).
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1.00\textwidth]{screens/reservations_history.png}
+	\caption[caption]{Widok historii rezerwacji.}
+	\label{fig:account_reservations_history}
+\end{figure}
+
+Po wybraniu "Zarządzaj profilem" oraz "Moje rezerwacje" użytkownik może przeglądać nadchodzące rezerwacje oraz historie rezerwacji (rys. \ref{fig:account_reservations_history}).
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1.00\textwidth]{screens/restaurants.png}
+	\caption[caption]{Widok dostępnych restauracji.}
+	\label{fig:restaurants}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1.00\textwidth]{screens/restaurant.png}
+	\caption[caption]{Widok restauracji.}
+	\label{fig:restaurant}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1.00\textwidth]{screens/reservation.png}
+	\caption[caption]{Widok rezerwacji stolika.}
+	\label{fig:reservation}
+\end{figure}
+
+Użytkownik może przeglądać dostępne restauracje w widoku restaurants, dostępnym przez przycisk w pasku nawigacyjnym "Restauracje". Po wybraniu restauracji użytkownik jest przekierowywany do widoku zawierającego szczegóły restauracji (ref. \ref{fig:restaurant}). Widok zawiera godziny otwarcia rezerwacji, opinie innych użytkowników, dane restauracji, opis, popularne godziny oraz chat. Użytkownik dokonuje rezerwacji przez naciśnięcie "Zarezerwuj stolik". W okienku należy wybrać ilość osób dla których ma zostać złożona rezerwacja, data rezerwacji, godzinę i czas trwania rezerwacji. Po wciśnięciu "Wyszukaj stolik" aplikacja sprawdza czy stoliki są dostępne w danym momencie i prezentuje dostępne kombinacje stolików w danych godzinach. Po zatwierdzeniu rezerwacji użytkownik otrzymuje maila ze szczegółami rezerwacji. Restaurator musi potwierdzić rezerwację, aby się odbyła.
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1.00\textwidth]{screens/about.png}
+	\caption[caption]{Widok zawierający informacje o zespole tworzącym aplikację.}
+	\label{fig:about}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1.00\textwidth]{screens/contact.png}
+	\caption[caption]{Widok zawierający dane kontaktowe twórców aplikacji.}
+	\label{fig:contact}
+\end{figure}
+
+Widoki dostępne po naciśnięciu w pasku nawigacyjnym przycisku "O nas", oraz "Kontakt" zawierają informacje na temat zespołu tworzącego aplikację (rys. \ref{fig:about}), oraz dane kontaktowe (rys. \ref{fig:contact}).
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1.00\textwidth]{screens/register_rest_1.png}
+	\caption[caption]{Pierwszy krok rezerwacji restauracji.}
+	\label{fig:register_rest_1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1.00\textwidth]{screens/register_rest_2.png}
+	\caption[caption]{Drugi krok rezerwacji restauracji.}
+	\label{fig:register_rest_2}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1.00\textwidth]{screens/register_rest_3.png}
+	\caption[caption]{Trzeci krok rezerwacji restauracji.}
+	\label{fig:register_rest_3}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1.00\textwidth]{screens/register_rest_4.png}
+	\caption[caption]{Czwarty krok rezerwacji restauracji.}
+	\label{fig:register_rest_4}
+\end{figure}
+
+Aby dokonać rejestracji restauracji (rys. \ref{fig:register_rest_1}-\ref{fig:register_rest_4}) należy podać kolejno: dane podstawowe, opisy restauracji, godziny otwarcia oraz mail, telefon i hasło do konta. Rejestracja jest dostępna na stronie głównej. W celu odfiltrowania fałszywych kont rejestracja restauracji musi być potwierdzona przez administratora systemu.
 
 \subsection{Projekt bazy danych}
 Aplikacja wykorzystuje dwie bazy danych. Jedna baza danych (rysunek \ref{fig:tier}) jest używana do zarządzania użytkownikami - dane logowania, ich role i inne dane potrzebne do weryfikacji. Tabele, jak i relacje w tej bazie danych zostały utworzone przy użyciu biblioteki ASP.NET Core Identity ze względu na szereg udostępnianych przez nią rozwiązań m.in. do logowania, rejestracji, przypominania czy resetowania haseł.
