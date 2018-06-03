@@ -7,6 +7,8 @@
 \usepackage{float}
 \usepackage{caption}
 
+\newcommand\tab[1][1cm]{\hspace*{#1}}
+
 \title{Dokumentacja projektowa}
 \date{2018-03-18}
 \author{Jędrzej Kozal}
@@ -513,9 +515,44 @@ Faktyczne szukanie kombinacji (rys. \ref{fig:alg3}) odbywa się z wykorzystaniem
 
 Na rys. \ref{fig:gantt} przedstawiono wykres Gantta opracowany przed przystąpieniem do pracy nad projektem. Niestety przy opracowaniu tego wykresu poczyniono zbyt optymistyczne założenia, przez co nie udało się zrealizować planu przestawionego na wykresie.
 
+\begin{figure}[h]
+\centering
+	\includegraphics[width=0.70\textwidth]{gantt_real.png}
+	\caption[caption]{Rzeczywisty wykres Gantta.}
+	\label{fig:gantt}
+\end{figure}
+
+Na rys. \ref{fig:gantt} przedstawiono rzeczywisty wykres Gantta. Na osi czasu można zauważyć przesunięcie spowodowane wydłużeniem pracy nad krytycznymi oraz podstawowymi funkcjonalnościami systemu. Wszystkie opóźnienia spowodowały przesunięcie w czasie oddania projektu o około miesiąc.
+
 
 \subsection{Rzeczywista kalkulacja kosztów i nakładów pracy}
-{\color{red}\textbf{TODO: @Jędrzej}}
+
+Przed przystąpieniem do pracy nad projektem oszacowano koszta projektu uwzględniając honorarium czteroosobowego zespołu w wielkości 25 złotych za godzinę, oraz ubezpieczenie i podatki. Jako czas poświęcony na projekt przez każdego członka zespołu przyjęto 90 godzin. Jest to ilość godzin przewidzianych dla tego kursu w karcie przedmiotu. W wyniku obliczeń uzyskano:
+
+\hspace*{0.35cm} łączne wynagrodzenie: 9000 zł \\
+\tab ubezpieczenie (20.81\%): 1872.9 zł \\
+\tab koszt bezpośredni: 10872.9 zł \\
+\tab koszt pośredni: 0 zł \\
+\tab koszt całkowity: 10872.9 zł \\
+\tab podatek VAT (23\%): 2500,767 zł \\
+\tab łączny koszt projektu: 13373,667 zł
+
+W wyniku opóźnień i błędnej estymacji czas poświęcony na realizację projektu zwiększył się do  godzin. Było to powodem wzrostów kosztu projektu. Poniżej umieszczono czas poświęcony na projekt przez członków grupy, oraz rzeczywiste koszta projektu (z uwzględnieniem tej samej stawki):
+
+\hspace*{0.35cm} Eliza Mocek: 130h \\
+\tab Piotr Monetwka: 100h \\
+\tab Jędrzej Kozal: 80h \\
+\tab Hubert Duś: 80h \\
+
+\hspace*{0.35cm} łączne wynagrodzenie: 9750 zł \\
+\tab ubezpieczenie (20.81\%): 1872.9 zł \\
+\tab koszt bezpośredni: 11778.98 zł \\
+\tab koszt pośredni: 0 zł \\
+\tab koszt całkowity: 11778.98 zł \\
+\tab podatek VAT (23\%): 2709,16 zł \\
+\tab łączny koszt projektu: 14488,14 zł
+
+Jak widać opóźnienia przyczyniły się do wzrostu łącznego kosztu projektu o ponad 1000 złotych. W związku z nierównym udziałem i nakładem pracy różnych członków projektu proponuje się uwzględnienie godzinowego nakładu pracy członków zespołu przy wystawianiu oceny za projekt.
 
 
 \section{Wdrożenie projektu}
