@@ -313,147 +313,7 @@ Dzięki zastosowaniu tego podejściu zyskujemy łatwość modyfikacji poszczegó
 
 Zgodnie z przyjętą architekturą kod projektu można podzielić na cztery części: Widoki, Kontrolery, Serwisy, oraz Repozytoria. Odpowiedzialności poszczególnych części opisano w rozdziale \ref{Architektura systemu}. Kontrolery uzyskują dostęp do Serwisów poprzez wstrzykiwanie zależności. Ten sam mechanizm wykorzystano przy zapewnieniu dostępu serwisom do Repozytoriów. Poprzez wizualną analizę diagramu \ref{fig:system} można wyróżnić elementy systemu wymagające poprawy. Definitywnie pierwszym kandydatem do procesu refactoryzacji kodu jest ReservationService. Wnioskując po ilości powiązań z Repozytoriami klasa ta ma zbyt dużą odpowiedzialność i powinna zostać podzielona na mniejsze komponenty. Podobne wnioski można wyciągnąć na temat RestaurantService. Mimo tych niedoskonałości przy implementacji systemu zachowano warstwową architekturę.
 
-\subsection{Projekt frontendu}
 
-\begin{figure}[H]
-\centering
-	\includegraphics[width=1.00\textwidth]{screens/index1.png}
-	\caption[caption]{Widok strony głównej.}
-	\label{fig:index}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-	\includegraphics[width=1.00\textwidth]{screens/index2.png}
-	\caption[caption]{Widok kategorii na stronie głównej.}
-	\label{fig:index_category}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-	\includegraphics[width=1.00\textwidth]{screens/index3.png}
-	\caption[caption]{Widok miast na stronie głównej.}
-	\label{fig:index_cities}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-	\includegraphics[width=1.00\textwidth]{screens/index4.png}
-	\caption[caption]{Widok polecanych restauracji.}
-	\label{fig:index_recomended}
-\end{figure}
-
-Na stronie głównej znajdziemy odnośniki do wszystkich części systemu. Pasek nawigacyjny u góry strony pozwala na przełączanie się między widokami i łatwe poruszanie się po stronie. Jest on dostępny we wszystkich widokach w systemie. Widok strony głównej (rys. \ref{fig:index}-\ref{fig:index_recomended}) zawiera informacje na temat dostępnych kategorii, miast oraz polecanych restauracji. Po wybraniu jednej z kategorii (rys. \ref{fig:index_category}) użytkownik jest przekierowany do widoku zawierającego listę restauracji z wybraną kategorią. Analogicznie, po wybraniu miasta (rys. \ref{fig:index_cities}) użytkownik jest przkierowywany do widoku zawierającego listę restauracji w wybranym mieście. Sekcja polecane zawiera listę rekomendowanych restauracji po wybraniu, użytkownik jest przekierowywany do widoku ze szczegółami rezerwacji.
-
-\begin{figure}[H]
-\centering
-	\includegraphics[width=1.00\textwidth]{screens/register.png}
-	\caption[caption]{Widok rejestracji.}
-	\label{fig:register}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-	\includegraphics[width=1.00\textwidth]{screens/login.png}
-	\caption[caption]{Widok logowania.}
-	\label{fig:login}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-	\includegraphics[width=1.00\textwidth]{screens/loged_in.png}
-	\caption[caption]{Pasek nawigacyjny po zalogowaniu.}
-	\label{fig:loged_in}
-\end{figure}
-
-Aby uzyskać możliwość rezerwowania stolików klient musi być zalogowany. W tym celu należy się zalogować (widok na rys. \ref{fig:login}) lub zarejestrować (widok na rys. \ref{fig:register}). Po zalogowaniu fakt nazwa użytkownika będzie widoczna zamiast przycisku zaloguj na pasku nawigacyjnym (rys. \ref{fig:loged_in}).
-
-\begin{figure}[H]
-\centering
-	\includegraphics[width=1.00\textwidth]{screens/account_profile.png}
-	\caption[caption]{Widok szczegółów konta użytkownika.}
-	\label{fig:account_details}
-\end{figure}
-
-Po zalogowaniu użytkownik może przeglądać szczegóły swoje konta. W pasku nawigacyjnym należy wybrać "Zarządzaj profilem" a następnie z listy wysuwanej "Mój profil", aby zyskać dostęp do danych osobowych, oraz wyboru ulubionych kategorii. W tym samym widoku znajduje się równiej opcja zmiany hasła (rys. \ref{fig:account_details}).
-
-\begin{figure}[H]
-\centering
-	\includegraphics[width=1.00\textwidth]{screens/reservations_history.png}
-	\caption[caption]{Widok historii rezerwacji.}
-	\label{fig:account_reservations_history}
-\end{figure}
-
-Po wybraniu "Zarządzaj profilem" oraz "Moje rezerwacje" użytkownik może przeglądać nadchodzące rezerwacje oraz historie rezerwacji (rys. \ref{fig:account_reservations_history}).
-
-\begin{figure}[H]
-\centering
-	\includegraphics[width=1.00\textwidth]{screens/restaurants.png}
-	\caption[caption]{Widok dostępnych restauracji.}
-	\label{fig:restaurants}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-	\includegraphics[width=1.00\textwidth]{screens/restaurant.png}
-	\caption[caption]{Widok restauracji.}
-	\label{fig:restaurant}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-	\includegraphics[width=1.00\textwidth]{screens/reservation.png}
-	\caption[caption]{Widok rezerwacji stolika.}
-	\label{fig:reservation}
-\end{figure}
-
-Użytkownik może przeglądać dostępne restauracje w widoku restaurants, dostępnym przez przycisk w pasku nawigacyjnym "Restauracje". Po wybraniu restauracji użytkownik jest przekierowywany do widoku zawierającego szczegóły restauracji (ref. \ref{fig:restaurant}). Widok zawiera godziny otwarcia rezerwacji, opinie innych użytkowników, dane restauracji, opis, popularne godziny oraz chat. Użytkownik dokonuje rezerwacji przez naciśnięcie "Zarezerwuj stolik". W okienku należy wybrać ilość osób dla których ma zostać złożona rezerwacja, data rezerwacji, godzinę i czas trwania rezerwacji. Po wciśnięciu "Wyszukaj stolik" aplikacja sprawdza czy stoliki są dostępne w danym momencie i prezentuje dostępne kombinacje stolików w danych godzinach. Po zatwierdzeniu rezerwacji użytkownik otrzymuje maila ze szczegółami rezerwacji. Restaurator musi potwierdzić rezerwację, aby się odbyła.
-
-\begin{figure}[H]
-\centering
-	\includegraphics[width=1.00\textwidth]{screens/about.png}
-	\caption[caption]{Widok zawierający informacje o zespole tworzącym aplikację.}
-	\label{fig:about}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-	\includegraphics[width=1.00\textwidth]{screens/contact.png}
-	\caption[caption]{Widok zawierający dane kontaktowe twórców aplikacji.}
-	\label{fig:contact}
-\end{figure}
-
-Widoki dostępne po naciśnięciu w pasku nawigacyjnym przycisku "O nas", oraz "Kontakt" zawierają informacje na temat zespołu tworzącego aplikację (rys. \ref{fig:about}), oraz dane kontaktowe (rys. \ref{fig:contact}).
-
-\begin{figure}[H]
-\centering
-	\includegraphics[width=1.00\textwidth]{screens/register_rest_1.png}
-	\caption[caption]{Pierwszy krok rezerwacji restauracji.}
-	\label{fig:register_rest_1}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-	\includegraphics[width=1.00\textwidth]{screens/register_rest_2.png}
-	\caption[caption]{Drugi krok rezerwacji restauracji.}
-	\label{fig:register_rest_2}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-	\includegraphics[width=1.00\textwidth]{screens/register_rest_3.png}
-	\caption[caption]{Trzeci krok rezerwacji restauracji.}
-	\label{fig:register_rest_3}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-	\includegraphics[width=1.00\textwidth]{screens/register_rest_4.png}
-	\caption[caption]{Czwarty krok rezerwacji restauracji.}
-	\label{fig:register_rest_4}
-\end{figure}
-
-Aby dokonać rejestracji restauracji (rys. \ref{fig:register_rest_1}-\ref{fig:register_rest_4}) należy podać kolejno: dane podstawowe, opisy restauracji, godziny otwarcia oraz mail, telefon i hasło do konta. Rejestracja jest dostępna na stronie głównej. W celu odfiltrowania fałszywych kont rejestracja restauracji musi być potwierdzona przez administratora systemu.
 
 \subsection{Projekt bazy danych}
 Aplikacja wykorzystuje dwie bazy danych. Jedna baza danych (rysunek \ref{fig:tier}) jest używana do zarządzania użytkownikami - dane logowania, ich role i inne dane potrzebne do weryfikacji. Tabele, jak i relacje w tej bazie danych zostały utworzone przy użyciu biblioteki ASP.NET Core Identity ze względu na szereg udostępnianych przez nią rozwiązań m.in. do logowania, rejestracji, przypominania czy resetowania haseł.
@@ -509,6 +369,197 @@ Procedura \textit{Znajdź dostępne stoliki} określa czy są dostępne kombinac
 \end{figure}
 
 Faktyczne szukanie kombinacji (rys. \ref{fig:alg3}) odbywa się z wykorzystaniem słownika mapującego pojemność stolików na listę stolików dostępnych w danym czasie o danej pojemności. Następnie, iterując po ilości stolików wyznacza się wszystkie możliwe kombinacje stolików (np. realizując zamówienie dla 10 osób przy użyciu dwóch stolików następujące kombinacje mogą zostać użyte dla zrealizowania zamówienia: \{\{8,2\},\{7,3\},\{6,4\},\{5,5\}\}). Dla wyznaczonej kombinacji sprawdza się, czy słownik zawiera odpowiednią ilość stolików dostępnych w danym czasie. Jeśli istnieją wolne stoliki potrzebne do utworzenia danej kombinacji w słowniku, kombinacja zostaje dodana do listy rozwiązań.
+
+
+\subsection{Projekt frontendu}
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1.00\textwidth]{screens/index1.png}
+	\caption[caption]{Widok strony głównej.}
+	\label{fig:index}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1.00\textwidth]{screens/index2.png}
+	\caption[caption]{Widok kategorii na stronie głównej.}
+	\label{fig:index_category}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1.00\textwidth]{screens/index3.png}
+	\caption[caption]{Widok miast na stronie głównej.}
+	\label{fig:index_cities}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1.00\textwidth]{screens/index4.png}
+	\caption[caption]{Widok polecanych restauracji.}
+	\label{fig:index_recomended}
+\end{figure}
+
+Na stronie głównej znajdziemy odnośniki do wszystkich części systemu. Pasek nawigacyjny u góry strony pozwala na przełączanie się między widokami i łatwe poruszanie się po stronie. Jest on dostępny we wszystkich widokach w systemie. Widok strony głównej (rys. \ref{fig:index}-\ref{fig:index_recomended}) zawiera informacje na temat dostępnych kategorii, miast oraz polecanych restauracji. Po wybraniu jednej z kategorii (rys. \ref{fig:index_category}) użytkownik jest przekierowany do widoku zawierającego listę restauracji z wybraną kategorią. Analogicznie, po wybraniu miasta (rys. \ref{fig:index_cities}) użytkownik jest przkierowywany do widoku zawierającego listę restauracji w wybranym mieście. Sekcja polecane zawiera listę rekomendowanych restauracji po wybraniu, użytkownik jest przekierowywany do widoku ze szczegółami rezerwacji.
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1.00\textwidth]{screens/register.png}
+	\caption[caption]{Widok rejestracji.}
+	\label{fig:register}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1.00\textwidth]{screens/login.png}
+	\caption[caption]{Widok logowania.}
+	\label{fig:login}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1.00\textwidth]{screens/loged_in.png}
+	\caption[caption]{Pasek nawigacyjny po zalogowaniu.}
+	\label{fig:loged_in}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1.00\textwidth]{screens/reset.png}
+	\caption[caption]{Resetowanie hasła.}
+	\label{fig:reset}
+\end{figure}
+
+Aby uzyskać możliwość rezerwowania stolików klient musi być zalogowany. W tym celu należy się zalogować (widok na rys. \ref{fig:login}) lub zarejestrować (widok na rys. \ref{fig:register}) z potwierdzeniem e-mailowym założenia konta. Po zalogowaniu fakt nazwa użytkownika będzie widoczna zamiast przycisku zaloguj na pasku nawigacyjnym (rys. \ref{fig:loged_in}). Jeżeli użytkownik zapomniał hasła może je zresetować\ref{fig:reset}.
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1.00\textwidth]{screens/account_profile.png}
+	\caption[caption]{Widok szczegółów konta użytkownika.}
+	\label{fig:account_details}
+\end{figure}
+
+Po zalogowaniu użytkownik może przeglądać szczegóły swoje konta. W pasku nawigacyjnym należy wybrać "Zarządzaj profilem" a następnie z listy wysuwanej "Mój profil", aby zyskać dostęp do danych osobowych, oraz wyboru ulubionych kategorii. W tym samym widoku znajduje się równiej opcja zmiany hasła (rys. \ref{fig:account_details}).
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1.00\textwidth]{screens/reservations_history.png}
+	\caption[caption]{Widok historii rezerwacji.}
+	\label{fig:account_reservations_history}
+\end{figure}
+
+Po wybraniu "Zarządzaj profilem" oraz "Moje rezerwacje" użytkownik może przeglądać nadchodzące rezerwacje oraz historie rezerwacji (rys. \ref{fig:account_reservations_history}).
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1.00\textwidth]{screens/restaurants.png}
+	\caption[caption]{Widok dostępnych restauracji.}
+	\label{fig:restaurants}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1.00\textwidth]{screens/restaurant.png}
+	\caption[caption]{Widok restauracji.}
+	\label{fig:restaurant}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1.00\textwidth]{screens/reservation.png}
+	\caption[caption]{Widok rezerwacji stolika.}
+	\label{fig:reservation}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1.00\textwidth]{screens/reservation2.png}
+	\caption[caption]{Widok rezerwacji stolika - wybór godziny i stolików(propozycje).}
+	\label{fig:reservation}
+\end{figure}
+
+Użytkownik może przeglądać dostępne restauracje w widoku restaurants, dostępnym przez przycisk w pasku nawigacyjnym "Restauracje". Po wybraniu restauracji użytkownik jest przekierowywany do widoku zawierającego szczegóły restauracji (ref. \ref{fig:restaurant}). Widok zawiera godziny otwarcia rezerwacji, opinie innych użytkowników, dane restauracji, opis, popularne godziny oraz chat. Użytkownik dokonuje rezerwacji przez naciśnięcie "Zarezerwuj stolik". W okienku należy wybrać ilość osób dla których ma zostać złożona rezerwacja, data rezerwacji, godzinę i czas trwania rezerwacji. Po wciśnięciu "Wyszukaj stolik" aplikacja sprawdza czy stoliki są dostępne w danym momencie i prezentuje dostępne kombinacje stolików w danych godzinach. Po zatwierdzeniu rezerwacji użytkownik otrzymuje maila ze szczegółami rezerwacji. Restaurator musi potwierdzić rezerwację, aby się odbyła.
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1.00\textwidth]{screens/about.png}
+	\caption[caption]{Widok zawierający informacje o zespole tworzącym aplikację.}
+	\label{fig:about}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1.00\textwidth]{screens/contact.png}
+	\caption[caption]{Widok zawierający dane kontaktowe twórców aplikacji.}
+	\label{fig:contact}
+\end{figure}
+
+Widoki dostępne po naciśnięciu w pasku nawigacyjnym przycisku "O nas", oraz "Kontakt" zawierają informacje na temat zespołu tworzącego aplikację (rys. \ref{fig:about}), oraz dane kontaktowe (rys. \ref{fig:contact}).
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1.00\textwidth]{screens/register_rest_1.png}
+	\caption[caption]{Pierwszy krok rezerwacji restauracji.}
+	\label{fig:register_rest_1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1.00\textwidth]{screens/register_rest_2.png}
+	\caption[caption]{Drugi krok rezerwacji restauracji.}
+	\label{fig:register_rest_2}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1.00\textwidth]{screens/register_rest_3.png}
+	\caption[caption]{Trzeci krok rezerwacji restauracji.}
+	\label{fig:register_rest_3}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1.00\textwidth]{screens/register_rest_4.png}
+	\caption[caption]{Czwarty krok rezerwacji restauracji.}
+	\label{fig:register_rest_4}
+\end{figure}
+
+Aby dokonać rejestracji restauracji (rys. \ref{fig:register_rest_1}-\ref{fig:register_rest_4}) należy podać kolejno: dane podstawowe, opisy restauracji, godziny otwarcia oraz mail, telefon i hasło do konta. Rejestracja jest dostępna na stronie głównej. W celu odfiltrowania fałszywych kont rejestracja restauracji musi być potwierdzona przez administratora systemu.
+
+
+Użytkownik restauracji ma możliwość tak jak użytkownik przeglądania profilów restauracji, przeglądania i anulowania rezerwacji, edycji swojego profilu, komunikowania się z klientami, a także dodawania/usuwania pracowników należących do swojej restauracji. Taki pracownik nie ma możliwości edycji danych restauracji, ale ma pełną kontrolę nad rezerwacjami oraz czatem z klientami.
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1.00\textwidth]{screens/menuRestaurant.png}
+	\caption[caption]{Pasek nawigacyjny restauracji.}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1.00\textwidth]{screens/restaurantEdit.png}
+	\caption[caption]{Restauracja - zarządzanie profilem.}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1.00\textwidth]{screens/employees.png}
+	\caption[caption]{Lista pracowników.}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1.00\textwidth]{screens/employees2.png}
+	\caption[caption]{Lista pracowników.}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1.00\textwidth]{screens/restaurantRes.png}
+	\caption[caption]{Rezerwacje klientów w restauracji.}
+\end{figure}
 
 \section{Kamienie milowe i plan projektu}
 \subsection{Wykres Gantta}
@@ -569,7 +620,6 @@ Aplikacja jest dostępna pod adresem:
 \begin{center}
 \textit{https://zarezerwujstolik.azurewebsites.net}
 \end{center}
-\subsection{Konta testowe}
 Przygotowane zostały dwa konta testowe:\\\\
 \textbf{Konto restauracji:}
 \begin{center}

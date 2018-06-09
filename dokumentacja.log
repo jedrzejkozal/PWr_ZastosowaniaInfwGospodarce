@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.2)  12 MAY 2018 21:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.2)  9 JUN 2018 17:27
 entering extended mode
 **./dokumentacja.tex
 (dokumentacja.tex
@@ -460,23 +460,30 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \c@ContinuedFloat=\count89
 Package caption Info: float package is loaded.
 )
-(dokumentacja.aux)
+(dokumentacja.aux
+
+LaTeX Warning: Label `fig:reservation' multiply defined.
+
+
+LaTeX Warning: Label `fig:gantt' multiply defined.
+
+)
 \openout1 = `dokumentacja.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
  ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count90
@@ -542,265 +549,468 @@ Package caption Info: End \AtBeginDocument code.
 File: logo_pol_wroclaw.png Graphic file (type png)
 
 <use logo_pol_wroclaw.png>
-Package pdftex.def Info: logo_pol_wroclaw.png used on input line 18.
+Package pdftex.def Info: logo_pol_wroclaw.png used on input line 20.
 (pdftex.def)             Requested size: 86.25pt x 86.2489pt.
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./logo_pol_wroclaw.png>] 
-[1]
-Underfull \hbox (badness 10000) in paragraph at lines 70--72
-
- []
-
-<firma1.png, id=16, 217.81375pt x 54.2025pt>
+[1] <firma1.png, id=16, 217.81375pt x 54.2025pt>
 File: firma1.png Graphic file (type png)
- <use firma1.png>
-Package pdftex.def Info: firma1.png used on input line 77.
-(pdftex.def)             Requested size: 56.9055pt x 14.16013pt.
-LaTeX Font Info:    Try loading font information for OML+plm on input line 78.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\polski\omlplm.fd"
+<use firma1.png>
+Package pdftex.def Info: firma1.png used on input line 79.
+(pdftex.def)             Requested size: 56.9055pt x 14.16013pt.
+LaTeX Font Info:    Try loading font information for OML+plm on input line 80.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\polski\omlplm.fd"
 File: omlplm.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-LaTeX Font Info:    Try loading font information for OMS+plsy on input line 78.
+LaTeX Font Info:    Try loading font information for OMS+plsy on input line 80.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\polski\omsplsy.fd"
 File: omsplsy.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-LaTeX Font Info:    Try loading font information for OMX+plex on input line 78.
+LaTeX Font Info:    Try loading font information for OMX+plex on input line 80.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\polski\omxplex.fd"
 File: omxplex.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <10> on input line 78.
+(Font)              <10> on input line 80.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <7> on input line 78.
+(Font)              <7> on input line 80.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <5> on input line 78.
+(Font)              <5> on input line 80.
 
 <firma2.png, id=17, 177.66376pt x 57.21375pt>
 File: firma2.png Graphic file (type png)
  <use firma2.png>
-Package pdftex.def Info: firma2.png used on input line 80.
+Package pdftex.def Info: firma2.png used on input line 82.
 (pdftex.def)             Requested size: 56.9055pt x 18.32535pt.
 
 <firma3.png, id=18, 116.435pt x 84.315pt>
 File: firma3.png Graphic file (type png)
  <use firma3.png>
-Package pdftex.def Info: firma3.png used on input line 83.
+Package pdftex.def Info: firma3.png used on input line 85.
 (pdftex.def)             Requested size: 56.9055pt x 41.20662pt.
 
 <firma4.png, id=19, 163.61125pt x 49.18375pt>
 File: firma4.png Graphic file (type png)
  <use firma4.png>
-Package pdftex.def Info: firma4.png used on input line 86.
+Package pdftex.def Info: firma4.png used on input line 88.
 (pdftex.def)             Requested size: 56.9055pt x 17.10649pt.
 
 <konkurencjaTabela.png, id=20, 655.44875pt x 259.97125pt>
 File: konkurencjaTabela.png Graphic file (type png)
 
 <use konkurencjaTabela.png>
-Package pdftex.def Info: konkurencjaTabela.png used on input line 94.
+Package pdftex.def Info: konkurencjaTabela.png used on input line 96.
 (pdftex.def)             Requested size: 327.74895pt x 129.9972pt.
- [2 <./firma1.png> <./firma2.png> <./firma3.png> <./firma4.png> <./konkurencjaT
-abela.png>] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 134--134
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2 <./firma1.png> <./firma2.png> <./firma3.png> <./firma4.png>] [3 <./konkurenc
+jaTabela.png>] [4]
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
 []\OT4/cmr/m/n/10 Nie za-im-ple-men-to-wa-nie
  []
 
 
-Underfull \hbox (badness 6316) in paragraph at lines 134--134
+Underfull \hbox (badness 6316) in paragraph at lines 136--136
 \OT4/cmr/m/n/10 funk-cji ze wzgl¦-du na
  []
 
 
-Underfull \hbox (badness 7012) in paragraph at lines 141--141
+Underfull \hbox (badness 7012) in paragraph at lines 143--143
 []\OT4/cmr/m/n/10 Zªe de-cy-zje pro-jek-to-we
  []
 
 
-Underfull \hbox (badness 2486) in paragraph at lines 142--142
+Underfull \hbox (badness 2486) in paragraph at lines 144--144
 []\OT4/cmr/m/n/10 Niedostateczne za-bez-pie-
  []
 
-<use_case.jpg, id=33, 739.76375pt x 815.045pt>
+<use_case.jpg, id=36, 739.76375pt x 815.045pt>
 File: use_case.jpg Graphic file (type jpg)
  <use use_case.jpg>
-Package pdftex.def Info: use_case.jpg used on input line 152.
+Package pdftex.def Info: use_case.jpg used on input line 154.
 (pdftex.def)             Requested size: 310.4979pt x 342.0927pt.
- [4] [5 <./use_case.jpg>]
-Overfull \hbox (5.30621pt too wide) in paragraph at lines 190--192
+ [5] [6 <./use_case.jpg>]
+Overfull \hbox (5.30621pt too wide) in paragraph at lines 192--194
 []\OT4/cmr/m/n/10 wysªanie wia-do-mo-±ci do klien-ta Opcja bez-po-±red-niej ko-
 mu-ni-ka-cji przez
  []
 
-[6]
-Overfull \hbox (17.66733pt too wide) in paragraph at lines 209--210
+[7]
+Overfull \hbox (17.66733pt too wide) in paragraph at lines 211--212
 \OT4/cmr/m/n/10 Projekt zo-staª zre-ali-zo-wa-ny z wy-ko-rzy-sta-niem j¦-zy-ka 
 C# oraz fra-me-wor-ka ASP.NET
  []
 
-<c_hasztag.png, id=44, 256.96pt x 256.96pt>
+<c_hasztag.png, id=47, 256.96pt x 256.96pt>
 File: c_hasztag.png Graphic file (type png)
  <use c_hasztag.png>
-Package pdftex.def Info: c_hasztag.png used on input line 214.
+Package pdftex.def Info: c_hasztag.png used on input line 216.
 (pdftex.def)             Requested size: 56.9055pt x 56.90385pt.
 
-<asp_net-MVC.png, id=45, 265.99374pt x 265.99374pt>
+<asp_net-MVC.png, id=48, 265.99374pt x 265.99374pt>
 File: asp_net-MVC.png Graphic file (type png)
  <use asp_net-MVC.png>
-Package pdftex.def Info: asp_net-MVC.png used on input line 217.
+Package pdftex.def Info: asp_net-MVC.png used on input line 219.
 (pdftex.def)             Requested size: 56.9055pt x 56.90343pt.
 
-<html.png, id=46, 1027.84pt x 602.25pt>
+<html.png, id=49, 1027.84pt x 602.25pt>
 File: html.png Graphic file (type png)
  <use html.png>
-Package pdftex.def Info: html.png used on input line 220.
+Package pdftex.def Info: html.png used on input line 222.
 (pdftex.def)             Requested size: 56.9055pt x 33.3398pt.
 
-<sql.png, id=47, 941.5175pt x 238.8925pt>
+<sql.png, id=50, 941.5175pt x 238.8925pt>
 File: sql.png Graphic file (type png)
  <use sql.png>
-Package pdftex.def Info: sql.png used on input line 223.
+Package pdftex.def Info: sql.png used on input line 225.
 (pdftex.def)             Requested size: 56.9055pt x 14.43863pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 229.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 231.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 229.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 231.
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--231
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 232--238
-
- []
-
-[7 <./c_hasztag.png> <./asp_net-MVC.png> <./html.png> <./sql.png>]
-
-LaTeX Warning: Citation `asp' on page 8 undefined on input line 239.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 238--240
+Underfull \hbox (badness 10000) in paragraph at lines 231--233
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 241--244
+Underfull \hbox (badness 10000) in paragraph at lines 234--240
+
+ []
+
+[8 <./c_hasztag.png> <./asp_net-MVC.png> <./html.png> <./sql.png>]
+
+LaTeX Warning: Citation `asp' on page 9 undefined on input line 241.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--242
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--247
+Underfull \hbox (badness 10000) in paragraph at lines 243--246
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--253
+Underfull \hbox (badness 10000) in paragraph at lines 247--249
 
  []
 
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 254--256
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--255
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 282--285
+Underfull \hbox (badness 10000) in paragraph at lines 256--258
 
  []
 
-<ntier.png, id=62, 499.8675pt x 439.6425pt>
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 281--284
+
+ []
+
+<ntier.png, id=65, 499.8675pt x 439.6425pt>
 File: ntier.png Graphic file (type png)
  <use ntier.png>
-Package pdftex.def Info: ntier.png used on input line 292.
+Package pdftex.def Info: ntier.png used on input line 291.
 (pdftex.def)             Requested size: 172.5pt x 151.71707pt.
 
-Overfull \hbox (4.47292pt too wide) in paragraph at lines 298--299
+Overfull \hbox (4.47292pt too wide) in paragraph at lines 297--298
 \OT4/cmr/m/n/10 j¦-zy-ka plat-for-my (np. C#) j¦-zy-ków do opi-sów wy-gl¡-du st
 ro-ny (CSS, HTML,
  []
 
-[10 <./ntier.png (PNG copy)>]
-<bazaIdentity.png, id=66, 697.10437pt x 511.9125pt>
+[11 <./ntier.png (PNG copy)>] <system.png, id=69, 845.1575pt x 1147.28625pt>
+File: system.png Graphic file (type png)
+
+<use system.png>
+Package pdftex.def Info: system.png used on input line 309.
+(pdftex.def)             Requested size: 345.0pt x 468.3422pt.
+ [12] [13 <./system.png>]
+<bazaIdentity.png, id=78, 697.10437pt x 511.9125pt>
 File: bazaIdentity.png Graphic file (type png)
  <use bazaIdentity.png>
-Package pdftex.def Info: bazaIdentity.png used on input line 314.
+Package pdftex.def Info: bazaIdentity.png used on input line 322.
 (pdftex.def)             Requested size: 310.4979pt x 228.00734pt.
 
-[11] <bazaStolik.png, id=70, 1690.81688pt x 947.79094pt>
+<bazaStolik.png, id=79, 1690.81688pt x 947.79094pt>
 File: bazaStolik.png Graphic file (type png)
  <use bazaStolik.png>
-Package pdftex.def Info: bazaStolik.png used on input line 321.
+Package pdftex.def Info: bazaStolik.png used on input line 329.
 (pdftex.def)             Requested size: 1690.81276pt x 947.78864pt.
 
-[12 <./bazaIdentity.png>]
+[14 <./bazaIdentity.png>]
 Overfull \vbox (87.45316pt too high) has occurred while \output is active []
 
 
-[13 <./bazaStolik.png>] <algo1.jpg, id=79, 563.10374pt x 427.5975pt>
+[15 <./bazaStolik.png>] <algo1.jpg, id=87, 563.10374pt x 427.5975pt>
 File: algo1.jpg Graphic file (type jpg)
 
 <use algo1.jpg>
-Package pdftex.def Info: algo1.jpg used on input line 339.
+Package pdftex.def Info: algo1.jpg used on input line 347.
 (pdftex.def)             Requested size: 241.49895pt x 183.38051pt.
- <algo2.jpg, id=80, 489.83pt x 709.65125pt>
+ <algo2.jpg, id=88, 489.83pt x 709.65125pt>
 File: algo2.jpg Graphic file (type jpg)
  <use algo2.jpg>
-Package pdftex.def Info: algo2.jpg used on input line 348.
+Package pdftex.def Info: algo2.jpg used on input line 356.
 (pdftex.def)             Requested size: 172.5pt x 249.90845pt.
 
-[14 <./algo1.jpg>] <algo3.jpg, id=84, 364.36125pt x 673.51625pt>
+[16 <./algo1.jpg>] <algo3.jpg, id=92, 364.36125pt x 673.51625pt>
 File: algo3.jpg Graphic file (type jpg)
 
 <use algo3.jpg>
-Package pdftex.def Info: algo3.jpg used on input line 358.
+Package pdftex.def Info: algo3.jpg used on input line 366.
 (pdftex.def)             Requested size: 172.5pt x 318.85474pt.
- [15 <./algo2.jpg>]
-<gantt.png, id=88, 888.31876pt x 488.82625pt>
+ [17 <./algo2.jpg>]
+<screens/index1.png, id=96, 1028.34187pt x 548.0475pt>
+File: screens/index1.png Graphic file (type png)
+
+<use screens/index1.png>
+Package pdftex.def Info: screens/index1.png used on input line 378.
+(pdftex.def)             Requested size: 345.0pt x 183.86673pt.
+ [18 <./algo3.jpg>]
+<screens/index2.png, id=101, 1441.63594pt x 781.41937pt>
+File: screens/index2.png Graphic file (type png)
+
+<use screens/index2.png>
+Package pdftex.def Info: screens/index2.png used on input line 385.
+(pdftex.def)             Requested size: 345.0pt x 186.996pt.
+
+<screens/index3.png, id=102, 2614.5178pt x 1467.98438pt>
+File: screens/index3.png Graphic file (type png)
+
+<use screens/index3.png>
+Package pdftex.def Info: screens/index3.png used on input line 392.
+(pdftex.def)             Requested size: 345.0pt x 193.68942pt.
+ [19 <./screens/index1.png> <./screens/index2.png>]
+<screens/index4.png, id=107, 1425.07407pt x 706.13812pt>
+File: screens/index4.png Graphic file (type png)
+
+<use screens/index4.png>
+Package pdftex.def Info: screens/index4.png used on input line 399.
+(pdftex.def)             Requested size: 345.0pt x 170.94197pt.
+
+<screens/register.png, id=108, 2929.94624pt x 1661.45718pt>
+File: screens/register.png Graphic file (type png)
+
+<use screens/register.png>
+Package pdftex.def Info: screens/register.png used on input line 408.
+(pdftex.def)             Requested size: 345.0pt x 195.6142pt.
+ [20 <./screens/index3.png> <./screens/index4.png>]
+<screens/login.png, id=112, 2883.27188pt x 1621.55812pt>
+File: screens/login.png Graphic file (type png)
+
+<use screens/login.png>
+Package pdftex.def Info: screens/login.png used on input line 415.
+(pdftex.def)             Requested size: 345.0pt x 194.00949pt.
+ <screens/loged_in.png, id=113, 1008.01593pt x 48.18pt>
+File: screens/loged_in.png Graphic file (type png)
+
+<use screens/loged_in.png>
+Package pdftex.def Info: screens/loged_in.png used on input line 422.
+(pdftex.def)             Requested size: 345.0pt x 16.48978pt.
+
+<screens/reset.png, id=114, 957.5775pt x 907.89188pt>
+File: screens/reset.png Graphic file (type png)
+ <use screens/reset.png>
+Package pdftex.def Info: screens/reset.png used on input line 429.
+(pdftex.def)             Requested size: 345.0pt x 327.09018pt.
+
+[21 <./screens/register.png> <./screens/login.png> <./screens/loged_in.png>]
+<screens/account_profile.png, id=120, 1441.63594pt x 813.0375pt>
+File: screens/account_profile.png Graphic file (type png)
+
+<use screens/account_profile.png>
+Package pdftex.def Info: screens/account_profile.png used on input line 438.
+(pdftex.def)             Requested size: 345.0pt x 194.56232pt.
+ [22 <./screens/reset.png>]
+<screens/reservations_history.png, id=125, 1443.89438pt x 810.77907pt>
+File: screens/reservations_history.png Graphic file (type png)
+
+<use screens/reservations_history.png>
+Package pdftex.def Info: screens/reservations_history.png used on input line 44
+7.
+(pdftex.def)             Requested size: 345.0pt x 193.72495pt.
+
+<screens/restaurants.png, id=126, 1431.09656pt x 708.39656pt>
+File: screens/restaurants.png Graphic file (type png)
+
+<use screens/restaurants.png>
+Package pdftex.def Info: screens/restaurants.png used on input line 456.
+(pdftex.def)             Requested size: 345.0pt x 170.77528pt.
+ [23 <./screens/account_profile.png> <./screens/reservations_history.png>]
+<screens/restaurant.png, id=131, 791.95876pt x 1331.72531pt>
+File: screens/restaurant.png Graphic file (type png)
+
+<use screens/restaurant.png>
+Package pdftex.def Info: screens/restaurant.png used on input line 463.
+(pdftex.def)             Requested size: 345.0pt x 580.1493pt.
+ [24 <./screens/restaurants.png>]
+Overfull \vbox (52.1493pt too high) has occurred while \output is active []
+
+
+[25 <./screens/restaurant.png>]
+<screens/reservation.png, id=140, 1437.11906pt x 710.655pt>
+File: screens/reservation.png Graphic file (type png)
+
+<use screens/reservation.png>
+Package pdftex.def Info: screens/reservation.png used on input line 470.
+(pdftex.def)             Requested size: 345.0pt x 170.60405pt.
+
+<screens/reservation2.png, id=141, 1028.34187pt x 548.0475pt>
+File: screens/reservation2.png Graphic file (type png)
+
+<use screens/reservation2.png>
+Package pdftex.def Info: screens/reservation2.png used on input line 477.
+(pdftex.def)             Requested size: 345.0pt x 183.86673pt.
+ [26 <./screens/reservation.png> <./screens/reservation2.png>] <screens/about.p
+ng, id=146, 1427.3325pt x 712.16063pt>
+File: screens/about.png Graphic file (type png)
+
+<use screens/about.png>
+Package pdftex.def Info: screens/about.png used on input line 486.
+(pdftex.def)             Requested size: 345.0pt x 172.12823pt.
+
+<screens/contact.png, id=147, 2948.01375pt x 1659.19875pt>
+File: screens/contact.png Graphic file (type png)
+
+<use screens/contact.png>
+Package pdftex.def Info: screens/contact.png used on input line 493.
+(pdftex.def)             Requested size: 345.0pt x 194.15839pt.
+
+<screens/register_rest_1.png, id=148, 1430.34375pt x 727.96968pt>
+File: screens/register_rest_1.png Graphic file (type png)
+
+<use screens/register_rest_1.png>
+Package pdftex.def Info: screens/register_rest_1.png used on input line 502.
+(pdftex.def)             Requested size: 345.0pt x 175.5827pt.
+ [27 <./screens/about.png> <./screens/contact.png>] <screens/register_rest_2.pn
+g, id=154, 1430.34375pt x 732.48656pt>
+File: screens/register_rest_2.png Graphic file (type png)
+
+<use screens/register_rest_2.png>
+Package pdftex.def Info: screens/register_rest_2.png used on input line 509.
+(pdftex.def)             Requested size: 345.0pt x 176.67215pt.
+
+<screens/register_rest_3.png, id=155, 1425.07407pt x 723.45282pt>
+File: screens/register_rest_3.png Graphic file (type png)
+
+<use screens/register_rest_3.png>
+Package pdftex.def Info: screens/register_rest_3.png used on input line 516.
+(pdftex.def)             Requested size: 345.0pt x 175.13353pt.
+ [28 <./screens/register_rest_1.png> <./screens/register_rest_2.png>]
+<screens/register_rest_4.png, id=161, 1426.57968pt x 720.44156pt>
+File: screens/register_rest_4.png Graphic file (type png)
+
+<use screens/register_rest_4.png>
+Package pdftex.def Info: screens/register_rest_4.png used on input line 523.
+(pdftex.def)             Requested size: 345.0pt x 174.22867pt.
+
+<screens/menuRestaurant.png, id=162, 365.86688pt x 103.13531pt>
+File: screens/menuRestaurant.png Graphic file (type png)
+
+<use screens/menuRestaurant.png>
+Package pdftex.def Info: screens/menuRestaurant.png used on input line 535.
+(pdftex.def)             Requested size: 345.0pt x 97.25877pt.
+ [29 <./screens/register_rest_3.png> <./screens/register_rest_4.png>]
+<screens/restaurantEdit.png, id=168, 1029.8475pt x 1062.97125pt>
+File: screens/restaurantEdit.png Graphic file (type png)
+
+<use screens/restaurantEdit.png>
+Package pdftex.def Info: screens/restaurantEdit.png used on input line 542.
+(pdftex.def)             Requested size: 345.0pt x 356.08542pt.
+
+<screens/employees.png, id=169, 1028.34187pt x 548.0475pt>
+File: screens/employees.png Graphic file (type png)
+
+<use screens/employees.png>
+Package pdftex.def Info: screens/employees.png used on input line 548.
+(pdftex.def)             Requested size: 345.0pt x 183.86673pt.
+ [30 <./screens/menuRestaurant.png> <./screens/restaurantEdit.png>] <screens/em
+ployees2.png, id=175, 1028.34187pt x 548.0475pt>
+File: screens/employees2.png Graphic file (type png)
+
+<use screens/employees2.png>
+Package pdftex.def Info: screens/employees2.png used on input line 554.
+(pdftex.def)             Requested size: 345.0pt x 183.86673pt.
+
+<screens/restaurantRes.png, id=176, 1029.8475pt x 545.03625pt>
+File: screens/restaurantRes.png Graphic file (type png)
+
+<use screens/restaurantRes.png>
+Package pdftex.def Info: screens/restaurantRes.png used on input line 560.
+(pdftex.def)             Requested size: 345.0pt x 182.58203pt.
+ [31 <./screens/employees.png> <./screens/employees2.png>] <gantt.png, id=180, 
+888.31876pt x 488.82625pt>
 File: gantt.png Graphic file (type png)
  <use gantt.png>
-Package pdftex.def Info: gantt.png used on input line 370.
+Package pdftex.def Info: gantt.png used on input line 569.
 (pdftex.def)             Requested size: 241.49895pt x 132.88736pt.
+
+<gantt_real.png, id=181, 909.3975pt x 475.7775pt>
+File: gantt_real.png Graphic file (type png)
+ <use gantt_real.png>
+Package pdftex.def Info: gantt_real.png used on input line 578.
+(pdftex.def)             Requested size: 241.49895pt x 126.34178pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[16 <./algo3.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 390--392
+
+Overfull \hbox (14.33395pt too wide) in paragraph at lines 588--589
+\OT4/cmr/m/n/10 Przed przy-st¡-pie-niem do pra-cy nad pro-jek-tem osza-co-wa-no
+ kosz-ta pro-jek-tu uwzgl¦d-
+ []
+
+[32 <./screens/restaurantRes.png> <./gantt.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 600--604
 
  []
 
-[17 <./gantt.png>] [18]
-LaTeX Font Info:    Try loading font information for OT4+cmtt on input line 409
-.
+[33 <./gantt_real.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 624--626
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\polski\ot4cmtt.fd"
+ []
+
+[34] [35]
+LaTeX Font Info:    Try loading font information for OT4+cmtt on input line 650
+.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\polski\ot4cmtt.fd"
 File: ot4cmtt.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-Overfull \hbox (26.08247pt too wide) in paragraph at lines 412--414
+Overfull \hbox (26.08247pt too wide) in paragraph at lines 653--655
 \OT4/cmtt/m/n/10 https://docs.microsoft.com/pl-pl/aspnet/#pivot[]core&panel[]co
 re[]overview 
  []
 
-[19] (dokumentacja.aux)
+[36] (dokumentacja.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 3748 strings out of 493323
- 54111 string characters out of 3139067
- 121296 words of memory out of 3000000
- 7215 multiletter control sequences out of 15000+200000
+ 3907 strings out of 493323
+ 57732 string characters out of 3139067
+ 121566 words of memory out of 3000000
+ 7346 multiletter control sequences out of 15000+200000
  13720 words of font info for 37 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,9n,39p,1126b,316s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -815,9 +1025,9 @@ Program Files/MiKTeX 2.9/fonts/type1/public/pl/plr12.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/pl/plti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/pl/plti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/pltt1
 0.pfb>
-Output written on dokumentacja.pdf (20 pages, 715880 bytes).
+Output written on dokumentacja.pdf (37 pages, 28851933 bytes).
 PDF statistics:
- 137 PDF objects out of 1000 (max. 8388607)
+ 235 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 226 words of extra memory for PDF output out of 10000 (max. 10000000)
 
