@@ -260,7 +260,7 @@ SignalR jest biblioteką Microsoft ASP.NET, która pozwala na wysyłanie asynchr
 
 \section{Projekt systemu}
 
-\subsection{Architektura systemu}
+\subsection{Architektura systemu} \label{Architektura systemu}
 
 W niniejszym rozdziale przedstawiono ogólny przegląd architektury całej aplikacji, opartej na zalecanych sposobach pracy z wybranymi narzędziami.
 
@@ -304,7 +304,14 @@ Dzięki zastosowaniu tego podejściu zyskujemy łatwość modyfikacji poszczegó
 
 \subsection{Diagram elementów systemu}
 
-{\color{red}\textbf{TODO: @Jędrzej}}
+\begin{figure}[H]
+\centering
+	\includegraphics[width=1.00\textwidth]{system.png}
+	\caption[caption]{Diagram elementów systemu.}
+	\label{fig:system}
+\end{figure}
+
+Zgodnie z przyjętą architekturą kod projektu można podzielić na cztery części: Widoki, Kontrolery, Serwisy, oraz Repozytoria. Odpowiedzialności poszczególnych części opisano w rozdziale \ref{Architektura systemu}. Kontrolery uzyskują dostęp do Serwisów poprzez wstrzykiwanie zależności. Ten sam mechanizm wykorzystano przy zapewnieniu dostępu serwisom do Repozytoriów. Poprzez wizualną analizę diagramu \ref{fig:system} można wyróżnić elementy systemu wymagające poprawy. Definitywnie pierwszym kandydatem do procesu refactoryzacji kodu jest ReservationService. Wnioskując po ilości powiązań z Repozytoriami klasa ta ma zbyt dużą odpowiedzialność i powinna zostać podzielona na mniejsze komponenty. Podobne wnioski można wyciągnąć na temat RestaurantService. Mimo tych niedoskonałości przy implementacji systemu zachowano warstwową architekturę.
 
 \subsection{Projekt frontendu}
 
