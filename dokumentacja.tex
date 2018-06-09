@@ -583,6 +583,13 @@ Nazwa użytkownika: client@email.com Hasło: Password1!
 
 \section{Podsumowanie i wnioski}
 
+Stworzona aplikacja pozwoliła na zapoznanie się z technologiami C\#, oraz \\ ASP.NET MVC. Przyjęcie jasno określonej architektury ułatwia klarowną implementację systemu. Praca bez testów jednostkowych powoduje powstawanie gorszej jakości kodu, który trudno jest utrzymywać. Refaktoryzacja kodu bez testów jednostkowych jest trudna, najbezpieczniejszym sposobem refaktoryzacji jest tworzenie testów jednostkowych i sprawdzanie, czy po wprowadzeniu zmian zachowanie systemu się nie zmieniło.
+
+Dobrą praktyką jest wyszczególnienie zasad formatowania i tworzenia kodu na początku projektu. Pozwala to na uniknięcie nieścisłości i ułatwia zapewnienie lepszej jakości kodu. Dobrą praktyką jest code review przez innych członków zespołu. Pozwala na zapewnienie czytelności kodu i pozwala wychwycić błędy. Testy jednostkowe powinny być częścią systemu ciągłej integracji od początku pracy nad projektem. Wprowadzenie testów jednostkowych w późniejszej fazie projektu może być bardzo trudne.
+
+W trakcie manualnych testów systemu nie zauważono problemów z wydajnością. Nie zbadano skalowalności systemu, ani nie wykonano testów obciążeniowych systemu. W przypadku pojawienia się problemów z wydajnością proponuje się zastosowanie cacheowania w celu zmniejszenia ilości odwołań do bazy danych.
+
+Trudno jest prowadzić projekt zespołowy, kiedy różni członkowie zespołu posiadają niewspółmierne poziomy motywacji. Powoduje to nierówne rozdzielenie obowiązków, oraz konflikty w zespole, co znacząco utrudnia współpracę. Częsta i klarowna komunikacja w zespole ułatwia organizację pracy i umożliwia uniknięcie problemów wynikających z dezinformacji.
 
 \newpage
 \begin{thebibliography}{9}
