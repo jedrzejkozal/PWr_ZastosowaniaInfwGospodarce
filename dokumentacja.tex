@@ -126,8 +126,6 @@ Wyróżniono następujące stopnie ryzyka:
 
 Stosując opisaną metodykę, wybrano kila najważniejszych czynników i oszacowano poziom ryzyka.
 
-\newpage
-
 \begin{center}
 \captionof{table}{oszacowanie poziomu ryzyka}
 	\begin{tabular}{|p{4cm}|l|l|l|}
@@ -431,7 +429,7 @@ Na stronie głównej znajdziemy odnośniki do wszystkich części systemu. Pasek
 	\label{fig:reset}
 \end{figure}
 
-Aby uzyskać możliwość rezerwowania stolików klient musi być zalogowany. W tym celu należy się zalogować (widok na rys. \ref{fig:login}) lub zarejestrować (widok na rys. \ref{fig:register}) z potwierdzeniem e-mailowym założenia konta. Po zalogowaniu fakt nazwa użytkownika będzie widoczna zamiast przycisku zaloguj na pasku nawigacyjnym (rys. \ref{fig:loged_in}). Jeżeli użytkownik zapomniał hasła może je zresetować\ref{fig:reset}.
+Aby uzyskać możliwość rezerwowania stolików klient musi być zalogowany. W tym celu należy się zalogować (widok na rys. \ref{fig:login}) lub zarejestrować (widok na rys. \ref{fig:register}) z potwierdzeniem e-mailowym założenia konta. Po zalogowaniu fakt nazwa użytkownika będzie widoczna zamiast przycisku zaloguj na pasku nawigacyjnym (rys. \ref{fig:loged_in}). Jeżeli użytkownik zapomniał hasła może je zresetować (rys. \ref{fig:reset}).
 
 \begin{figure}[H]
 \centering
@@ -610,8 +608,7 @@ W wyniku opóźnień i błędnej estymacji czas poświęcony na realizację proj
 \tab podatek VAT (23\%): 2709,16 zł \\
 \tab łączny koszt projektu: 14488,14 zł
 
-Jak widać opóźnienia przyczyniły się do wzrostu łącznego kosztu projektu o ponad 1000 złotych. W związku z nierównym udziałem i nakładem pracy różnych członków projektu proponuje się uwzględnienie godzinowego nakładu pracy członków zespołu przy wystawianiu oceny za projekt.
-
+Jak widać opóźnienia przyczyniły się do wzrostu łącznego kosztu projektu o ponad 1000 złotych. 
 
 \section{Wdrożenie projektu}
 Aplikacja sieci Web jak i baza danych została wdrożona z użyciem usług Microsoft Azure. Utworzony został serwer SQL zawierający dwie bazy danych (pierwszy zawierający bazę danych użytkowników oraz ich uprawnienia, drugi zawierający pozostałe tabele) oraz serwer aplikacji. Od docelowego użytkownika wymagana jest przeglądarka z dostępem do internetu. Aplikacja webowa została przetestowana w przeglądarce Google Chrome wersji 65 oraz Microsoft Edge 41.
@@ -633,13 +630,14 @@ Nazwa użytkownika: client@email.com Hasło: Password1!
 
 \section{Podsumowanie i wnioski}
 
-Stworzona aplikacja pozwoliła na zapoznanie się z technologiami C\#, oraz \\ ASP.NET MVC. Przyjęcie jasno określonej architektury ułatwia klarowną implementację systemu. Praca bez testów jednostkowych powoduje powstawanie gorszej jakości kodu, który trudno jest utrzymywać. Refaktoryzacja kodu bez testów jednostkowych jest trudna, najbezpieczniejszym sposobem refaktoryzacji jest tworzenie testów jednostkowych i sprawdzanie, czy po wprowadzeniu zmian zachowanie systemu się nie zmieniło.
+Stworzona aplikacja pozwoliła na zapoznanie się z technologiami C\#, oraz \\ ASP.NET MVC oraz dodatkowych narzędzi wspomagających proces wytwarzania oprogramowania np. korzystanie z systemu kontroli wersji, co umożliwiło sprawną współpracę zespołu.  
 
-Dobrą praktyką jest wyszczególnienie zasad formatowania i tworzenia kodu na początku projektu. Pozwala to na uniknięcie nieścisłości i ułatwia zapewnienie lepszej jakości kodu. Dobrą praktyką jest code review przez innych członków zespołu. Pozwala na zapewnienie czytelności kodu i pozwala wychwycić błędy. Testy jednostkowe powinny być częścią systemu ciągłej integracji od początku pracy nad projektem. Wprowadzenie testów jednostkowych w późniejszej fazie projektu może być bardzo trudne.
+Dobrą praktyką jest wyszczególnienie zasad formatowania i tworzenia kodu na początku projektu. Pozwala to na uniknięcie nieścisłości i ułatwia zapewnienie lepszej jakości kodu. Dobrą praktyką jest code review przez innych członków zespołu. Pozwala na zapewnienie czytelności kodu i wychwycenie błędów. 
 
 W trakcie manualnych testów systemu nie zauważono problemów z wydajnością. Nie zbadano skalowalności systemu, ani nie wykonano testów obciążeniowych systemu. W przypadku pojawienia się problemów z wydajnością proponuje się zastosowanie cacheowania w celu zmniejszenia ilości odwołań do bazy danych.
 
-Trudno jest prowadzić projekt zespołowy, kiedy różni członkowie zespołu posiadają niewspółmierne poziomy motywacji. Powoduje to nierówne rozdzielenie obowiązków, oraz konflikty w zespole, co znacząco utrudnia współpracę. Częsta i klarowna komunikacja w zespole ułatwia organizację pracy i umożliwia uniknięcie problemów wynikających z dezinformacji.
+Projekt zespołowy pokazał trudności jakie można napotkać w przyszłej pracy zawodowej między członkami grupy. Różne pomysły, błędy w planowaniu pracy, a także inne sytuacje np. awaria sprzętu może mieć wpływ na przebieg projektu. Częsta i klarowna komunikacja w zespole ułatwia organizację pracy i umożliwia uniknięcie problemów wynikających z dezinformacji.
+
 
 \newpage
 \begin{thebibliography}{9}

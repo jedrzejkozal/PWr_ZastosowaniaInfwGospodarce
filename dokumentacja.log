@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.2)  9 JUN 2018 17:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.2)  12 JUN 2018 12:46
 entering extended mode
 **./dokumentacja.tex
 (dokumentacja.tex
@@ -460,14 +460,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \c@ContinuedFloat=\count89
 Package caption Info: float package is loaded.
 )
-(dokumentacja.aux
-
-LaTeX Warning: Label `fig:reservation' multiply defined.
-
-
-LaTeX Warning: Label `fig:gantt' multiply defined.
-
-)
+(dokumentacja.aux)
 \openout1 = `dokumentacja.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
@@ -612,404 +605,491 @@ Package pdftex.def Info: konkurencjaTabela.png used on input line 96.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [2 <./firma1.png> <./firma2.png> <./firma3.png> <./firma4.png>] [3 <./konkurenc
-jaTabela.png>] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 136--136
+jaTabela.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
 []\OT4/cmr/m/n/10 Nie za-im-ple-men-to-wa-nie
  []
 
 
-Underfull \hbox (badness 6316) in paragraph at lines 136--136
+Underfull \hbox (badness 6316) in paragraph at lines 134--134
 \OT4/cmr/m/n/10 funk-cji ze wzgl¦-du na
  []
 
 
-Underfull \hbox (badness 7012) in paragraph at lines 143--143
+Underfull \hbox (badness 7012) in paragraph at lines 141--141
 []\OT4/cmr/m/n/10 Zªe de-cy-zje pro-jek-to-we
  []
 
 
-Underfull \hbox (badness 2486) in paragraph at lines 144--144
+Underfull \hbox (badness 2486) in paragraph at lines 142--142
 []\OT4/cmr/m/n/10 Niedostateczne za-bez-pie-
  []
 
-<use_case.jpg, id=36, 739.76375pt x 815.045pt>
+<use_case.jpg, id=33, 739.76375pt x 815.045pt>
 File: use_case.jpg Graphic file (type jpg)
  <use use_case.jpg>
-Package pdftex.def Info: use_case.jpg used on input line 154.
+Package pdftex.def Info: use_case.jpg used on input line 152.
 (pdftex.def)             Requested size: 310.4979pt x 342.0927pt.
- [5] [6 <./use_case.jpg>]
-Overfull \hbox (5.30621pt too wide) in paragraph at lines 192--194
+ [4] [5 <./use_case.jpg>]
+Overfull \hbox (5.30621pt too wide) in paragraph at lines 190--192
 []\OT4/cmr/m/n/10 wysªanie wia-do-mo-±ci do klien-ta Opcja bez-po-±red-niej ko-
 mu-ni-ka-cji przez
  []
 
-[7]
-Overfull \hbox (17.66733pt too wide) in paragraph at lines 211--212
+[6]
+Overfull \hbox (17.66733pt too wide) in paragraph at lines 209--210
 \OT4/cmr/m/n/10 Projekt zo-staª zre-ali-zo-wa-ny z wy-ko-rzy-sta-niem j¦-zy-ka 
 C# oraz fra-me-wor-ka ASP.NET
  []
 
-<c_hasztag.png, id=47, 256.96pt x 256.96pt>
+<c_hasztag.png, id=44, 256.96pt x 256.96pt>
 File: c_hasztag.png Graphic file (type png)
  <use c_hasztag.png>
-Package pdftex.def Info: c_hasztag.png used on input line 216.
+Package pdftex.def Info: c_hasztag.png used on input line 214.
 (pdftex.def)             Requested size: 56.9055pt x 56.90385pt.
 
-<asp_net-MVC.png, id=48, 265.99374pt x 265.99374pt>
+<asp_net-MVC.png, id=45, 265.99374pt x 265.99374pt>
 File: asp_net-MVC.png Graphic file (type png)
  <use asp_net-MVC.png>
-Package pdftex.def Info: asp_net-MVC.png used on input line 219.
+Package pdftex.def Info: asp_net-MVC.png used on input line 217.
 (pdftex.def)             Requested size: 56.9055pt x 56.90343pt.
 
-<html.png, id=49, 1027.84pt x 602.25pt>
+<html.png, id=46, 1027.84pt x 602.25pt>
 File: html.png Graphic file (type png)
  <use html.png>
-Package pdftex.def Info: html.png used on input line 222.
+Package pdftex.def Info: html.png used on input line 220.
 (pdftex.def)             Requested size: 56.9055pt x 33.3398pt.
 
-<sql.png, id=50, 941.5175pt x 238.8925pt>
+<sql.png, id=47, 941.5175pt x 238.8925pt>
 File: sql.png Graphic file (type png)
  <use sql.png>
-Package pdftex.def Info: sql.png used on input line 225.
+Package pdftex.def Info: sql.png used on input line 223.
 (pdftex.def)             Requested size: 56.9055pt x 14.43863pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 231.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 229.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 231.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 229.
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--233
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 234--240
-
- []
-
-[8 <./c_hasztag.png> <./asp_net-MVC.png> <./html.png> <./sql.png>]
-
-LaTeX Warning: Citation `asp' on page 9 undefined on input line 241.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 240--242
+Underfull \hbox (badness 10000) in paragraph at lines 229--231
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 243--246
+Underfull \hbox (badness 10000) in paragraph at lines 232--238
+
+ []
+
+[7 <./c_hasztag.png> <./asp_net-MVC.png> <./html.png> <./sql.png>]
+
+LaTeX Warning: Citation `asp' on page 8 undefined on input line 239.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 238--240
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--249
+Underfull \hbox (badness 10000) in paragraph at lines 241--244
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--255
+Underfull \hbox (badness 10000) in paragraph at lines 245--247
+
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 248--253
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--256
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 256--258
+Underfull \hbox (badness 10000) in paragraph at lines 279--282
 
  []
 
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 281--284
-
- []
-
-<ntier.png, id=65, 499.8675pt x 439.6425pt>
+<ntier.png, id=62, 499.8675pt x 439.6425pt>
 File: ntier.png Graphic file (type png)
  <use ntier.png>
-Package pdftex.def Info: ntier.png used on input line 291.
+Package pdftex.def Info: ntier.png used on input line 289.
 (pdftex.def)             Requested size: 172.5pt x 151.71707pt.
 
-Overfull \hbox (4.47292pt too wide) in paragraph at lines 297--298
+Overfull \hbox (4.47292pt too wide) in paragraph at lines 295--296
 \OT4/cmr/m/n/10 j¦-zy-ka plat-for-my (np. C#) j¦-zy-ków do opi-sów wy-gl¡-du st
 ro-ny (CSS, HTML,
  []
 
-[11 <./ntier.png (PNG copy)>] <system.png, id=69, 845.1575pt x 1147.28625pt>
+[10 <./ntier.png (PNG copy)>] <system.png, id=66, 845.1575pt x 1147.28625pt>
 File: system.png Graphic file (type png)
 
 <use system.png>
-Package pdftex.def Info: system.png used on input line 309.
+Package pdftex.def Info: system.png used on input line 307.
 (pdftex.def)             Requested size: 345.0pt x 468.3422pt.
- [12] [13 <./system.png>]
-<bazaIdentity.png, id=78, 697.10437pt x 511.9125pt>
+ [11]
+
+LaTeX Warning: Reference `Architektura systemu' on page 12 undefined on input l
+ine 312.
+
+
+LaTeX Warning: Reference `fig:system' on page 12 undefined on input line 312.
+
+[12 <./system.png>]
+
+LaTeX Warning: Reference `fig:tier' on page 13 undefined on input line 317.
+
+<bazaIdentity.png, id=75, 697.10437pt x 511.9125pt>
 File: bazaIdentity.png Graphic file (type png)
  <use bazaIdentity.png>
-Package pdftex.def Info: bazaIdentity.png used on input line 322.
+Package pdftex.def Info: bazaIdentity.png used on input line 320.
 (pdftex.def)             Requested size: 310.4979pt x 228.00734pt.
 
-<bazaStolik.png, id=79, 1690.81688pt x 947.79094pt>
+
+LaTeX Warning: Reference `fig:baza2' on page 13 undefined on input line 324.
+
+
+LaTeX Warning: Reference `fig:baza1' on page 13 undefined on input line 324.
+
+<bazaStolik.png, id=76, 1690.81688pt x 947.79094pt>
 File: bazaStolik.png Graphic file (type png)
  <use bazaStolik.png>
-Package pdftex.def Info: bazaStolik.png used on input line 329.
+Package pdftex.def Info: bazaStolik.png used on input line 327.
 (pdftex.def)             Requested size: 1690.81276pt x 947.78864pt.
 
-[14 <./bazaIdentity.png>]
+[13 <./bazaIdentity.png>]
 Overfull \vbox (87.45316pt too high) has occurred while \output is active []
 
 
-[15 <./bazaStolik.png>] <algo1.jpg, id=87, 563.10374pt x 427.5975pt>
+[14 <./bazaStolik.png>] <algo1.jpg, id=84, 563.10374pt x 427.5975pt>
 File: algo1.jpg Graphic file (type jpg)
 
 <use algo1.jpg>
-Package pdftex.def Info: algo1.jpg used on input line 347.
+Package pdftex.def Info: algo1.jpg used on input line 345.
 (pdftex.def)             Requested size: 241.49895pt x 183.38051pt.
- <algo2.jpg, id=88, 489.83pt x 709.65125pt>
+
+
+LaTeX Warning: Reference `fig:alg1' on page 15 undefined on input line 350.
+
+<algo2.jpg, id=85, 489.83pt x 709.65125pt>
 File: algo2.jpg Graphic file (type jpg)
  <use algo2.jpg>
-Package pdftex.def Info: algo2.jpg used on input line 356.
+Package pdftex.def Info: algo2.jpg used on input line 354.
 (pdftex.def)             Requested size: 172.5pt x 249.90845pt.
+ [15 <./algo1.jpg>]
 
-[16 <./algo1.jpg>] <algo3.jpg, id=92, 364.36125pt x 673.51625pt>
+LaTeX Warning: Reference `fig:alg2' on page 16 undefined on input line 359.
+
+<algo3.jpg, id=89, 364.36125pt x 673.51625pt>
 File: algo3.jpg Graphic file (type jpg)
-
-<use algo3.jpg>
-Package pdftex.def Info: algo3.jpg used on input line 366.
+ <use algo3.jpg>
+Package pdftex.def Info: algo3.jpg used on input line 364.
 (pdftex.def)             Requested size: 172.5pt x 318.85474pt.
- [17 <./algo2.jpg>]
-<screens/index1.png, id=96, 1028.34187pt x 548.0475pt>
+ [16 <./algo2.jpg>]
+
+LaTeX Warning: Reference `fig:alg3' on page 17 undefined on input line 369.
+
+<screens/index1.png, id=93, 1028.34187pt x 548.0475pt>
 File: screens/index1.png Graphic file (type png)
 
 <use screens/index1.png>
-Package pdftex.def Info: screens/index1.png used on input line 378.
+Package pdftex.def Info: screens/index1.png used on input line 376.
 (pdftex.def)             Requested size: 345.0pt x 183.86673pt.
- [18 <./algo3.jpg>]
-<screens/index2.png, id=101, 1441.63594pt x 781.41937pt>
+ [17 <./algo3.jpg>]
+<screens/index2.png, id=97, 1441.63594pt x 781.41937pt>
 File: screens/index2.png Graphic file (type png)
 
 <use screens/index2.png>
-Package pdftex.def Info: screens/index2.png used on input line 385.
+Package pdftex.def Info: screens/index2.png used on input line 383.
 (pdftex.def)             Requested size: 345.0pt x 186.996pt.
 
-<screens/index3.png, id=102, 2614.5178pt x 1467.98438pt>
+<screens/index3.png, id=98, 2614.5178pt x 1467.98438pt>
 File: screens/index3.png Graphic file (type png)
 
 <use screens/index3.png>
-Package pdftex.def Info: screens/index3.png used on input line 392.
+Package pdftex.def Info: screens/index3.png used on input line 390.
 (pdftex.def)             Requested size: 345.0pt x 193.68942pt.
- [19 <./screens/index1.png> <./screens/index2.png>]
-<screens/index4.png, id=107, 1425.07407pt x 706.13812pt>
+ [18 <./screens/index1.png> <./screens/index2.png>]
+<screens/index4.png, id=104, 1425.07407pt x 706.13812pt>
 File: screens/index4.png Graphic file (type png)
 
 <use screens/index4.png>
-Package pdftex.def Info: screens/index4.png used on input line 399.
+Package pdftex.def Info: screens/index4.png used on input line 397.
 (pdftex.def)             Requested size: 345.0pt x 170.94197pt.
 
-<screens/register.png, id=108, 2929.94624pt x 1661.45718pt>
+
+LaTeX Warning: Reference `fig:index' on page 19 undefined on input line 402.
+
+
+LaTeX Warning: Reference `fig:index_recomended' on page 19 undefined on input l
+ine 402.
+
+
+LaTeX Warning: Reference `fig:index_category' on page 19 undefined on input lin
+e 402.
+
+
+LaTeX Warning: Reference `fig:index_cities' on page 19 undefined on input line 
+402.
+
+<screens/register.png, id=105, 2929.94624pt x 1661.45718pt>
 File: screens/register.png Graphic file (type png)
 
 <use screens/register.png>
-Package pdftex.def Info: screens/register.png used on input line 408.
+Package pdftex.def Info: screens/register.png used on input line 406.
 (pdftex.def)             Requested size: 345.0pt x 195.6142pt.
- [20 <./screens/index3.png> <./screens/index4.png>]
-<screens/login.png, id=112, 2883.27188pt x 1621.55812pt>
+ [19 <./screens/index3.png> <./screens/index4.png>]
+<screens/login.png, id=109, 2883.27188pt x 1621.55812pt>
 File: screens/login.png Graphic file (type png)
 
 <use screens/login.png>
-Package pdftex.def Info: screens/login.png used on input line 415.
+Package pdftex.def Info: screens/login.png used on input line 413.
 (pdftex.def)             Requested size: 345.0pt x 194.00949pt.
- <screens/loged_in.png, id=113, 1008.01593pt x 48.18pt>
+ <screens/loged_in.png, id=110, 1008.01593pt x 48.18pt>
 File: screens/loged_in.png Graphic file (type png)
 
 <use screens/loged_in.png>
-Package pdftex.def Info: screens/loged_in.png used on input line 422.
+Package pdftex.def Info: screens/loged_in.png used on input line 420.
 (pdftex.def)             Requested size: 345.0pt x 16.48978pt.
 
-<screens/reset.png, id=114, 957.5775pt x 907.89188pt>
+<screens/reset.png, id=111, 957.5775pt x 907.89188pt>
 File: screens/reset.png Graphic file (type png)
  <use screens/reset.png>
-Package pdftex.def Info: screens/reset.png used on input line 429.
+Package pdftex.def Info: screens/reset.png used on input line 427.
 (pdftex.def)             Requested size: 345.0pt x 327.09018pt.
 
-[21 <./screens/register.png> <./screens/login.png> <./screens/loged_in.png>]
-<screens/account_profile.png, id=120, 1441.63594pt x 813.0375pt>
+[20 <./screens/register.png> <./screens/login.png> <./screens/loged_in.png>]
+
+LaTeX Warning: Reference `fig:login' on page 21 undefined on input line 432.
+
+
+LaTeX Warning: Reference `fig:register' on page 21 undefined on input line 432.
+
+
+
+LaTeX Warning: Reference `fig:loged_in' on page 21 undefined on input line 432.
+
+
+
+LaTeX Warning: Reference `fig:reset' on page 21 undefined on input line 432.
+
+<screens/account_profile.png, id=117, 1441.63594pt x 813.0375pt>
 File: screens/account_profile.png Graphic file (type png)
 
 <use screens/account_profile.png>
-Package pdftex.def Info: screens/account_profile.png used on input line 438.
+Package pdftex.def Info: screens/account_profile.png used on input line 436.
 (pdftex.def)             Requested size: 345.0pt x 194.56232pt.
- [22 <./screens/reset.png>]
-<screens/reservations_history.png, id=125, 1443.89438pt x 810.77907pt>
+ [21 <./screens/reset.png>]
+
+LaTeX Warning: Reference `fig:account_details' on page 22 undefined on input li
+ne 441.
+
+<screens/reservations_history.png, id=122, 1443.89438pt x 810.77907pt>
 File: screens/reservations_history.png Graphic file (type png)
 
 <use screens/reservations_history.png>
 Package pdftex.def Info: screens/reservations_history.png used on input line 44
-7.
+5.
 (pdftex.def)             Requested size: 345.0pt x 193.72495pt.
 
-<screens/restaurants.png, id=126, 1431.09656pt x 708.39656pt>
+
+LaTeX Warning: Reference `fig:account_reservations_history' on page 22 undefine
+d on input line 450.
+
+<screens/restaurants.png, id=123, 1431.09656pt x 708.39656pt>
 File: screens/restaurants.png Graphic file (type png)
 
 <use screens/restaurants.png>
-Package pdftex.def Info: screens/restaurants.png used on input line 456.
+Package pdftex.def Info: screens/restaurants.png used on input line 454.
 (pdftex.def)             Requested size: 345.0pt x 170.77528pt.
- [23 <./screens/account_profile.png> <./screens/reservations_history.png>]
-<screens/restaurant.png, id=131, 791.95876pt x 1331.72531pt>
+ [22 <./screens/account_profile.png> <./screens/reservations_history.png>]
+<screens/restaurant.png, id=128, 791.95876pt x 1331.72531pt>
 File: screens/restaurant.png Graphic file (type png)
 
 <use screens/restaurant.png>
-Package pdftex.def Info: screens/restaurant.png used on input line 463.
+Package pdftex.def Info: screens/restaurant.png used on input line 461.
 (pdftex.def)             Requested size: 345.0pt x 580.1493pt.
- [24 <./screens/restaurants.png>]
+ [23 <./screens/restaurants.png>]
 Overfull \vbox (52.1493pt too high) has occurred while \output is active []
 
 
-[25 <./screens/restaurant.png>]
-<screens/reservation.png, id=140, 1437.11906pt x 710.655pt>
+[24 <./screens/restaurant.png>]
+<screens/reservation.png, id=137, 1437.11906pt x 710.655pt>
 File: screens/reservation.png Graphic file (type png)
 
 <use screens/reservation.png>
-Package pdftex.def Info: screens/reservation.png used on input line 470.
+Package pdftex.def Info: screens/reservation.png used on input line 468.
 (pdftex.def)             Requested size: 345.0pt x 170.60405pt.
 
-<screens/reservation2.png, id=141, 1028.34187pt x 548.0475pt>
+<screens/reservation2.png, id=138, 1028.34187pt x 548.0475pt>
 File: screens/reservation2.png Graphic file (type png)
 
 <use screens/reservation2.png>
-Package pdftex.def Info: screens/reservation2.png used on input line 477.
+Package pdftex.def Info: screens/reservation2.png used on input line 475.
 (pdftex.def)             Requested size: 345.0pt x 183.86673pt.
- [26 <./screens/reservation.png> <./screens/reservation2.png>] <screens/about.p
-ng, id=146, 1427.3325pt x 712.16063pt>
-File: screens/about.png Graphic file (type png)
 
-<use screens/about.png>
-Package pdftex.def Info: screens/about.png used on input line 486.
+
+LaTeX Warning: Reference `fig:restaurant' on page 25 undefined on input line 48
+0.
+
+[25 <./screens/reservation.png> <./screens/reservation2.png>]
+<screens/about.png, id=143, 1427.3325pt x 712.16063pt>
+File: screens/about.png Graphic file (type png)
+ <use screens/about.png>
+Package pdftex.def Info: screens/about.png used on input line 484.
 (pdftex.def)             Requested size: 345.0pt x 172.12823pt.
 
-<screens/contact.png, id=147, 2948.01375pt x 1659.19875pt>
+<screens/contact.png, id=144, 2948.01375pt x 1659.19875pt>
 File: screens/contact.png Graphic file (type png)
 
 <use screens/contact.png>
-Package pdftex.def Info: screens/contact.png used on input line 493.
+Package pdftex.def Info: screens/contact.png used on input line 491.
 (pdftex.def)             Requested size: 345.0pt x 194.15839pt.
 
-<screens/register_rest_1.png, id=148, 1430.34375pt x 727.96968pt>
+
+LaTeX Warning: Reference `fig:about' on page 26 undefined on input line 496.
+
+
+LaTeX Warning: Reference `fig:contact' on page 26 undefined on input line 496.
+
+<screens/register_rest_1.png, id=145, 1430.34375pt x 727.96968pt>
 File: screens/register_rest_1.png Graphic file (type png)
 
 <use screens/register_rest_1.png>
-Package pdftex.def Info: screens/register_rest_1.png used on input line 502.
+Package pdftex.def Info: screens/register_rest_1.png used on input line 500.
 (pdftex.def)             Requested size: 345.0pt x 175.5827pt.
- [27 <./screens/about.png> <./screens/contact.png>] <screens/register_rest_2.pn
-g, id=154, 1430.34375pt x 732.48656pt>
+ [26 <./screens/about.png> <./screens/contact.png>] <screens/register_rest_2.pn
+g, id=151, 1430.34375pt x 732.48656pt>
 File: screens/register_rest_2.png Graphic file (type png)
 
 <use screens/register_rest_2.png>
-Package pdftex.def Info: screens/register_rest_2.png used on input line 509.
+Package pdftex.def Info: screens/register_rest_2.png used on input line 507.
 (pdftex.def)             Requested size: 345.0pt x 176.67215pt.
 
-<screens/register_rest_3.png, id=155, 1425.07407pt x 723.45282pt>
+<screens/register_rest_3.png, id=152, 1425.07407pt x 723.45282pt>
 File: screens/register_rest_3.png Graphic file (type png)
 
 <use screens/register_rest_3.png>
-Package pdftex.def Info: screens/register_rest_3.png used on input line 516.
+Package pdftex.def Info: screens/register_rest_3.png used on input line 514.
 (pdftex.def)             Requested size: 345.0pt x 175.13353pt.
- [28 <./screens/register_rest_1.png> <./screens/register_rest_2.png>]
-<screens/register_rest_4.png, id=161, 1426.57968pt x 720.44156pt>
+ [27 <./screens/register_rest_1.png> <./screens/register_rest_2.png>]
+<screens/register_rest_4.png, id=158, 1426.57968pt x 720.44156pt>
 File: screens/register_rest_4.png Graphic file (type png)
 
 <use screens/register_rest_4.png>
-Package pdftex.def Info: screens/register_rest_4.png used on input line 523.
+Package pdftex.def Info: screens/register_rest_4.png used on input line 521.
 (pdftex.def)             Requested size: 345.0pt x 174.22867pt.
 
-<screens/menuRestaurant.png, id=162, 365.86688pt x 103.13531pt>
+
+LaTeX Warning: Reference `fig:register_rest_1' on page 28 undefined on input li
+ne 526.
+
+
+LaTeX Warning: Reference `fig:register_rest_4' on page 28 undefined on input li
+ne 526.
+
+<screens/menuRestaurant.png, id=159, 365.86688pt x 103.13531pt>
 File: screens/menuRestaurant.png Graphic file (type png)
 
 <use screens/menuRestaurant.png>
-Package pdftex.def Info: screens/menuRestaurant.png used on input line 535.
+Package pdftex.def Info: screens/menuRestaurant.png used on input line 533.
 (pdftex.def)             Requested size: 345.0pt x 97.25877pt.
- [29 <./screens/register_rest_3.png> <./screens/register_rest_4.png>]
-<screens/restaurantEdit.png, id=168, 1029.8475pt x 1062.97125pt>
+ [28 <./screens/register_rest_3.png> <./screens/register_rest_4.png>]
+<screens/restaurantEdit.png, id=165, 1029.8475pt x 1062.97125pt>
 File: screens/restaurantEdit.png Graphic file (type png)
 
 <use screens/restaurantEdit.png>
-Package pdftex.def Info: screens/restaurantEdit.png used on input line 542.
+Package pdftex.def Info: screens/restaurantEdit.png used on input line 540.
 (pdftex.def)             Requested size: 345.0pt x 356.08542pt.
 
-<screens/employees.png, id=169, 1028.34187pt x 548.0475pt>
+<screens/employees.png, id=166, 1028.34187pt x 548.0475pt>
 File: screens/employees.png Graphic file (type png)
 
 <use screens/employees.png>
-Package pdftex.def Info: screens/employees.png used on input line 548.
+Package pdftex.def Info: screens/employees.png used on input line 546.
 (pdftex.def)             Requested size: 345.0pt x 183.86673pt.
- [30 <./screens/menuRestaurant.png> <./screens/restaurantEdit.png>] <screens/em
-ployees2.png, id=175, 1028.34187pt x 548.0475pt>
+ [29 <./screens/menuRestaurant.png> <./screens/restaurantEdit.png>] <screens/em
+ployees2.png, id=171, 1028.34187pt x 548.0475pt>
 File: screens/employees2.png Graphic file (type png)
 
 <use screens/employees2.png>
-Package pdftex.def Info: screens/employees2.png used on input line 554.
+Package pdftex.def Info: screens/employees2.png used on input line 552.
 (pdftex.def)             Requested size: 345.0pt x 183.86673pt.
 
-<screens/restaurantRes.png, id=176, 1029.8475pt x 545.03625pt>
+<screens/restaurantRes.png, id=172, 1029.8475pt x 545.03625pt>
 File: screens/restaurantRes.png Graphic file (type png)
 
 <use screens/restaurantRes.png>
-Package pdftex.def Info: screens/restaurantRes.png used on input line 560.
+Package pdftex.def Info: screens/restaurantRes.png used on input line 558.
 (pdftex.def)             Requested size: 345.0pt x 182.58203pt.
- [31 <./screens/employees.png> <./screens/employees2.png>] <gantt.png, id=180, 
+ [30 <./screens/employees.png> <./screens/employees2.png>] <gantt.png, id=177, 
 888.31876pt x 488.82625pt>
 File: gantt.png Graphic file (type png)
  <use gantt.png>
-Package pdftex.def Info: gantt.png used on input line 569.
+Package pdftex.def Info: gantt.png used on input line 567.
 (pdftex.def)             Requested size: 241.49895pt x 132.88736pt.
 
-<gantt_real.png, id=181, 909.3975pt x 475.7775pt>
+
+LaTeX Warning: Reference `fig:gantt' on page 31 undefined on input line 572.
+
+<gantt_real.png, id=178, 909.3975pt x 475.7775pt>
 File: gantt_real.png Graphic file (type png)
  <use gantt_real.png>
-Package pdftex.def Info: gantt_real.png used on input line 578.
+Package pdftex.def Info: gantt_real.png used on input line 576.
 (pdftex.def)             Requested size: 241.49895pt x 126.34178pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (14.33395pt too wide) in paragraph at lines 588--589
+LaTeX Warning: Reference `fig:gantt' on page 31 undefined on input line 581.
+
+
+Overfull \hbox (14.33395pt too wide) in paragraph at lines 586--587
 \OT4/cmr/m/n/10 Przed przy-st¡-pie-niem do pra-cy nad pro-jek-tem osza-co-wa-no
  kosz-ta pro-jek-tu uwzgl¦d-
  []
 
-[32 <./screens/restaurantRes.png> <./gantt.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 600--604
+[31 <./screens/restaurantRes.png> <./gantt.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 598--602
 
  []
 
-[33 <./gantt_real.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 624--626
+[32 <./gantt_real.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 620--622
 
  []
 
-[34] [35]
-LaTeX Font Info:    Try loading font information for OT4+cmtt on input line 650
+[33]
+LaTeX Font Info:    Try loading font information for OT4+cmtt on input line 647
 .
  ("C:\Program Files\MiKTeX 2.9\tex\latex\polski\ot4cmtt.fd"
 File: ot4cmtt.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-Overfull \hbox (26.08247pt too wide) in paragraph at lines 653--655
+Overfull \hbox (26.08247pt too wide) in paragraph at lines 650--652
 \OT4/cmtt/m/n/10 https://docs.microsoft.com/pl-pl/aspnet/#pivot[]core&panel[]co
 re[]overview 
  []
 
-[36] (dokumentacja.aux)
+[34] (dokumentacja.aux)
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
  3907 strings out of 493323
  57732 string characters out of 3139067
- 121566 words of memory out of 3000000
+ 121226 words of memory out of 3000000
  7346 multiletter control sequences out of 15000+200000
  13720 words of font info for 37 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1025,9 +1105,9 @@ Program Files/MiKTeX 2.9/fonts/type1/public/pl/plr12.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/pl/plti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/pl/plti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/pltt1
 0.pfb>
-Output written on dokumentacja.pdf (37 pages, 28851933 bytes).
+Output written on dokumentacja.pdf (35 pages, 28850219 bytes).
 PDF statistics:
- 235 PDF objects out of 1000 (max. 8388607)
+ 226 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  226 words of extra memory for PDF output out of 10000 (max. 10000000)
 
