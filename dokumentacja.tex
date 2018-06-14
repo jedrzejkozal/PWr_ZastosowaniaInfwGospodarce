@@ -6,6 +6,8 @@
 \usepackage{xcolor}
 \usepackage{float}
 \usepackage{caption}
+\usepackage{array}
+\usepackage{pbox}
 
 \newcommand\tab[1][1cm]{\hspace*{#1}}
 
@@ -105,6 +107,7 @@ Opentable jest jedną z najlepiej ocenianych i najczęściej używanych stron in
 Wymienione w poprzednim paragrafie serwisy nie występują w Polsce, lub są słabo rozpowszechnione. W porównaniu do konkurencji podstawową zaletą aplikacji ma być jej niska cena, oraz prostota. Zwiększa to zakres firm, który mogłyby sobie pozwolić na wdrożenie naszej aplikacji, co na dłuższą metę może stanowić o większej popularności.
 
 Główną grupą docelową naszego produktu są restauratorzy oraz obsługa restauracji z dużą liczbą rezerwacji. Dzięki przygotowanej aplikacji mogą skorzystać z najnowszych rozwiązań technicznych, aby lepiej zarządzać swoją dostępnymi miejscami, oraz personelem. Zintegrowanie opracowanego systemu z innymi systemami umożliwiającymi zarządzanie personelem, kosztami czy zamówieniami znacząco ułatwiałoby zarządzanie i podejmowanie właściwych decyzji na poziomie managerskim. 
+\newpage
 \subsection*{Ryzyka projektu}
 
 W projektcie przyjęto oszacowanie ryzyka na podstawie określinia poziomu ryzyka jako iloczynu prawdopodobieństwa wystąpienia i stopnia ryzyka. Wyróżniono następujące prawdopodobieństwa wystąpienia:
@@ -116,7 +119,6 @@ W projektcie przyjęto oszacowanie ryzyka na podstawie określinia poziomu ryzyk
 \item może się zdarzyć
 \item duże prawdopodobieństwo zdarzenia
 \end{enumerate}
-\newpage
 Wyróżniono następujące stopnie ryzyka:
 
 \begin{enumerate}
@@ -126,14 +128,14 @@ Wyróżniono następujące stopnie ryzyka:
 	\item duży
 	\item bardzo duży
 \end{enumerate}
-
+\newpage
 Stosując opisaną metodykę, wybrano kila najważniejszych czynników i oszacowano poziom ryzyka.
 
 \begin{center}
-\captionof{table}{oszacowanie poziomu ryzyka}
-	\begin{tabular}{|p{4cm}|l|l|l|}
+\captionof{table}{Oszacowanie poziomu ryzyka}
+	\begin{tabular}{|p{4cm}|c|c|c|}
 		\hline
-		Ryzyko & P(w)  & Stopień ryzyka & poziom ryzyka \\ \hline
+		Ryzyko & P(w)  & \pbox{2cm}{Stopień \\ ryzyka}  & \pbox{2cm}{Poziom \\ ryzyka} \\ \hline
 		Nie zaimplementowanie funkcji ze względu na napotkane problemy & 4 & 4 & 16 \\ \hline
 		Złe oszacowanie harmonogramu projektu (diagram Gantta)  & 3 & 4 & 12 \\ \hline
 		Brak współpracy w zespole , Problem z komunikacją & 4 & 4 & 16 \\ \hline
@@ -574,7 +576,7 @@ Użytkownik restauracji ma możliwość tak jak użytkownik przeglądania profil
 
 \begin{figure}[h]
 \centering
-	\includegraphics[width=0.70\textwidth]{gantt.png}
+	\includegraphics[width=1\textwidth]{gantt.png}
 	\caption{Wykres Gantta.}
 	\label{fig:gantt}
 \end{figure}
@@ -583,7 +585,7 @@ Na rys. \ref{fig:gantt} przedstawiono wykres Gantta opracowany przed przystąpie
 
 \begin{figure}[h]
 \centering
-	\includegraphics[width=0.70\textwidth]{gantt_real.png}
+	\includegraphics[width=1\textwidth]{gantt_real.png}
 	\caption{Rzeczywisty wykres Gantta.}
 	\label{fig:gantt}
 \end{figure}
@@ -594,29 +596,51 @@ Na rys. \ref{fig:gantt} przedstawiono rzeczywisty wykres Gantta. Na osi czasu mo
 \subsection{Rzeczywista kalkulacja kosztów i nakładów pracy}
 
 Przed przystąpieniem do pracy nad projektem oszacowano koszta projektu uwzględniając honorarium czteroosobowego zespołu w wielkości 25 złotych za godzinę, oraz ubezpieczenie i podatki. Jako czas poświęcony na projekt przez każdego członka zespołu przyjęto 90 godzin. Jest to ilość godzin przewidzianych dla tego kursu w karcie przedmiotu. W wyniku obliczeń uzyskano:
-
-\hspace*{0.35cm} łączne wynagrodzenie: 9000 zł \\
-\tab ubezpieczenie (20.81\%): 1872.9 zł \\
-\tab koszt bezpośredni: 10872.9 zł \\
-\tab koszt pośredni: 0 zł \\
-\tab koszt całkowity: 10872.9 zł \\
-\tab podatek VAT (23\%): 2500.76 zł \\
-\tab łączny koszt projektu: 13373.66 zł
+\newpage
+\begin{center}
+\captionof{table}{Szacowany koszty projektu.}
+	\begin{tabular}{|p{4cm}|l|}
+		\hline
+		Rodzaj & Koszt[zł] \\\hline
+		łączne wynagrodzenie & 9000.00 \\
+		ubezpieczenie (20.81\%) & 1872.90\\
+		koszt bezpośredni & 10872.90 \\
+		koszt pośredni & 0.00 \\
+		koszt całkowity & 10872.90 \\
+		podatek VAT (23\%) & 2500.76 \\
+		łączny koszt projektu & 13373.66 \\\hline
+\end{tabular}
+\end{center}
 
 W wyniku opóźnień i błędnej estymacji czas poświęcony na realizację projektu zwiększył się do  godzin. Było to powodem wzrostów kosztu projektu. Poniżej umieszczono czas poświęcony na projekt przez członków grupy, oraz rzeczywiste koszta projektu (z uwzględnieniem tej samej stawki): \\
 
-\hspace*{0.35cm} Eliza Mocek: 130h \\
-\tab Piotr Monetwka: 100h \\
-\tab Jędrzej Kozal: 80h \\
-\tab Hubert Duś: 80h \\
+\begin{center}
+\captionof{table}{Rzeczywiste godziny pracy.}
+	\begin{tabular}{|p{4cm}|l|}
+		\hline
+		Członek & Godziny [h] \\\hline
+		Eliza Mocek & 130 \\
+		Piotr Monetwka & 100 \\
+		Jędrzej Kozal & 80 \\
+		Hubert Duś & 80 \\\hline
+\end{tabular}
+\end{center}
+\newpage
+\begin{center}
+\captionof{table}{Rzeczywisty koszty projektu.}
+	\begin{tabular}{|p{4cm}|l|}
+		\hline
+		Rodzaj & Koszt[zł] \\\hline
+		łączne wynagrodzenie & 9750.00 \\
+		ubezpieczenie (20.81\%) & 1872.90\\
+		koszt bezpośredni & 11778.98 \\
+		koszt pośredni & 0.00 \\
+		koszt całkowity & 11778.98 \\
+		podatek VAT (23\%) & 2709.16 \\
+		łączny koszt projektu & 14488.14 \\\hline
+\end{tabular}
+\end{center}
 
-\hspace*{0.35cm} łączne wynagrodzenie: 9750 zł \\
-\tab ubezpieczenie (20.81\%): 1872.9 zł \\
-\tab koszt bezpośredni: 11778.98 zł \\
-\tab koszt pośredni: 0 zł \\
-\tab koszt całkowity: 11778.98 zł \\
-\tab podatek VAT (23\%): 2709.16 zł \\
-\tab łączny koszt projektu: 14488.14 zł
 
 Jak widać opóźnienia przyczyniły się do wzrostu łącznego kosztu projektu o ponad 1000 złotych. 
 
@@ -644,7 +668,7 @@ Nazwa użytkownika: client@email.com Hasło: Password1!
 \section{Podsumowanie}
 
 \subsection{Wnioski}
-Stworzona aplikacja pozwoliła na zapoznanie się z technologiami C\#, oraz \\ ASP.NET MVC oraz dodatkowych narzędzi wspomagających proces wytwarzania oprogramowania np. korzystanie z systemu kontroli wersji, co umożliwiło sprawną współpracę zespołu.  
+\tab Stworzona aplikacja pozwoliła na zapoznanie się z technologiami C\#, oraz \\ ASP.NET MVC oraz dodatkowych narzędzi wspomagających proces wytwarzania oprogramowania np. korzystanie z systemu kontroli wersji, co umożliwiło sprawną współpracę zespołu.  
 
 Dobrą praktyką jest wyszczególnienie zasad formatowania i tworzenia kodu na początku projektu. Pozwala to na uniknięcie nieścisłości i ułatwia zapewnienie lepszej jakości kodu. Dobrą praktyką jest code review przez innych członków zespołu. Pozwala na zapewnienie czytelności kodu i wychwycenie błędów. 
 

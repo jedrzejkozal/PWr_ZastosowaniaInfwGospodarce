@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.2)  12 JUN 2018 22:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.2)  14 JUN 2018 10:21
 entering extended mode
 **./dokumentacja.tex
 (dokumentacja.tex
@@ -460,7 +460,35 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \c@ContinuedFloat=\count89
 Package caption Info: float package is loaded.
 )
-(dokumentacja.aux
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen112
+\extrarowheight=\dimen113
+\NC@list=\toks19
+\extratabsurround=\skip43
+\backup@length=\skip44
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\pbox\pbox.sty"
+Package: pbox 2011/12/07 v1.2 Dynamic parboxes
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count90
+\calc@Bcount=\count91
+\calc@Adimen=\dimen114
+\calc@Bdimen=\dimen115
+\calc@Askip=\skip45
+\calc@Bskip=\skip46
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count92
+\calc@Cskip=\skip47
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\pb@xlen=\skip48
+) (dokumentacja.aux
 
 LaTeX Warning: Label `fig:reservation' multiply defined.
 
@@ -470,33 +498,33 @@ LaTeX Warning: Label `fig:gantt' multiply defined.
 )
 \openout1 = `dokumentacja.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
  ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count90
-\scratchdimen=\dimen112
+\scratchcounter=\count93
+\scratchdimen=\dimen116
 \scratchbox=\box28
-\nofMPsegments=\count91
-\nofMParguments=\count92
-\everyMPshowfont=\toks19
-\MPscratchCnt=\count93
-\MPscratchDim=\dimen113
-\MPnumerator=\count94
-\makeMPintoPDFobject=\count95
-\everyMPtoPDFconversion=\toks20
+\nofMPsegments=\count94
+\nofMParguments=\count95
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count96
+\MPscratchDim=\dimen117
+\MPnumerator=\count97
+\makeMPintoPDFobject=\count98
+\everyMPtoPDFconversion=\toks21
 ) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -549,458 +577,460 @@ Package caption Info: End \AtBeginDocument code.
 File: logo_pol_wroclaw.png Graphic file (type png)
 
 <use logo_pol_wroclaw.png>
-Package pdftex.def Info: logo_pol_wroclaw.png used on input line 20.
+Package pdftex.def Info: logo_pol_wroclaw.png used on input line 22.
 (pdftex.def)             Requested size: 86.25pt x 86.2489pt.
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./logo_pol_wroclaw.png>] 
-[1] <firma1.png, id=16, 217.81375pt x 54.2025pt>
-File: firma1.png Graphic file (type png)
+(dokumentacja.toc
+LaTeX Font Info:    Try loading font information for OML+plm on input line 2.
 
-<use firma1.png>
-Package pdftex.def Info: firma1.png used on input line 79.
-(pdftex.def)             Requested size: 56.9055pt x 14.16013pt.
-LaTeX Font Info:    Try loading font information for OML+plm on input line 80.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\polski\omlplm.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\polski\omlplm.fd"
 File: omlplm.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-LaTeX Font Info:    Try loading font information for OMS+plsy on input line 80.
-
+LaTeX Font Info:    Try loading font information for OMS+plsy on input line 2.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\polski\omsplsy.fd"
 File: omsplsy.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-LaTeX Font Info:    Try loading font information for OMX+plex on input line 80.
-
+LaTeX Font Info:    Try loading font information for OMX+plex on input line 2.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\polski\omxplex.fd"
 File: omxplex.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <10> on input line 80.
+(Font)              <10> on input line 2.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <7> on input line 80.
+(Font)              <7> on input line 2.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <5> on input line 80.
+(Font)              <5> on input line 2.
+)
+\tf@toc=\write3
+\openout3 = `dokumentacja.toc'.
 
-<firma2.png, id=17, 177.66376pt x 57.21375pt>
+ [1] [2] [3]
+<firma1.png, id=23, 217.81375pt x 54.2025pt>
+File: firma1.png Graphic file (type png)
+ <use firma1.png>
+Package pdftex.def Info: firma1.png used on input line 84.
+(pdftex.def)             Requested size: 56.9055pt x 14.16013pt.
+
+<firma2.png, id=24, 177.66376pt x 57.21375pt>
 File: firma2.png Graphic file (type png)
  <use firma2.png>
-Package pdftex.def Info: firma2.png used on input line 82.
+Package pdftex.def Info: firma2.png used on input line 87.
 (pdftex.def)             Requested size: 56.9055pt x 18.32535pt.
 
-<firma3.png, id=18, 116.435pt x 84.315pt>
+<firma3.png, id=25, 116.435pt x 84.315pt>
 File: firma3.png Graphic file (type png)
  <use firma3.png>
-Package pdftex.def Info: firma3.png used on input line 85.
+Package pdftex.def Info: firma3.png used on input line 90.
 (pdftex.def)             Requested size: 56.9055pt x 41.20662pt.
 
-<firma4.png, id=19, 163.61125pt x 49.18375pt>
+<firma4.png, id=26, 163.61125pt x 49.18375pt>
 File: firma4.png Graphic file (type png)
  <use firma4.png>
-Package pdftex.def Info: firma4.png used on input line 88.
+Package pdftex.def Info: firma4.png used on input line 93.
 (pdftex.def)             Requested size: 56.9055pt x 17.10649pt.
 
-<konkurencjaTabela.png, id=20, 655.44875pt x 259.97125pt>
+<konkurencjaTabela.png, id=27, 655.44875pt x 259.97125pt>
 File: konkurencjaTabela.png Graphic file (type png)
 
 <use konkurencjaTabela.png>
-Package pdftex.def Info: konkurencjaTabela.png used on input line 96.
+Package pdftex.def Info: konkurencjaTabela.png used on input line 101.
 (pdftex.def)             Requested size: 327.74895pt x 129.9972pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[2 <./firma1.png> <./firma2.png> <./firma3.png> <./firma4.png>] [3 <./konkurenc
-jaTabela.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 134--134
-[]\OT4/cmr/m/n/10 Nie za-im-ple-men-to-wa-nie
+ [4 <./firma1.png> <./firma2.png> <./firma3.png> <./firma4.png> <./konkurencjaT
+abela.png>] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+[]|\OT4/cmr/m/n/10 Nie za-im-ple-men-to-wa-nie
  []
 
 
-Underfull \hbox (badness 6316) in paragraph at lines 134--134
+Underfull \hbox (badness 6316) in paragraph at lines 139--139
 \OT4/cmr/m/n/10 funk-cji ze wzgl¦-du na
  []
 
 
-Underfull \hbox (badness 7012) in paragraph at lines 141--141
-[]\OT4/cmr/m/n/10 Zªe de-cy-zje pro-jek-to-we
+Underfull \hbox (badness 7012) in paragraph at lines 146--146
+[]|\OT4/cmr/m/n/10 Zªe de-cy-zje pro-jek-to-we
  []
 
 
-Underfull \hbox (badness 2486) in paragraph at lines 142--142
-[]\OT4/cmr/m/n/10 Niedostateczne za-bez-pie-
+Underfull \hbox (badness 2486) in paragraph at lines 147--147
+[]|\OT4/cmr/m/n/10 Niedostateczne za-bez-pie-
  []
 
-[4] <use_case.jpg, id=36, 739.76375pt x 815.045pt>
+[6] <use_case.jpg, id=43, 739.76375pt x 815.045pt>
 File: use_case.jpg Graphic file (type jpg)
  <use use_case.jpg>
-Package pdftex.def Info: use_case.jpg used on input line 152.
+Package pdftex.def Info: use_case.jpg used on input line 157.
 (pdftex.def)             Requested size: 310.4979pt x 342.0927pt.
- [5 <./use_case.jpg>]
-Overfull \hbox (5.30621pt too wide) in paragraph at lines 190--192
+ [7 <./use_case.jpg>]
+Overfull \hbox (5.30621pt too wide) in paragraph at lines 195--197
 []\OT4/cmr/m/n/10 wysªanie wia-do-mo-±ci do klien-ta Opcja bez-po-±red-niej ko-
 mu-ni-ka-cji przez
  []
 
-[6]
-Overfull \hbox (17.66733pt too wide) in paragraph at lines 213--214
+[8]
+Overfull \hbox (17.66733pt too wide) in paragraph at lines 218--219
 \OT4/cmr/m/n/10 Projekt zo-staª zre-ali-zo-wa-ny z wy-ko-rzy-sta-niem j¦-zy-ka 
 C# oraz fra-me-wor-ka ASP.NET
  []
 
-<c_hasztag.png, id=44, 256.96pt x 256.96pt>
+<c_hasztag.png, id=50, 256.96pt x 256.96pt>
 File: c_hasztag.png Graphic file (type png)
  <use c_hasztag.png>
-Package pdftex.def Info: c_hasztag.png used on input line 218.
+Package pdftex.def Info: c_hasztag.png used on input line 223.
 (pdftex.def)             Requested size: 56.9055pt x 56.90385pt.
 
-<asp_net-MVC.png, id=45, 265.99374pt x 265.99374pt>
+<asp_net-MVC.png, id=51, 265.99374pt x 265.99374pt>
 File: asp_net-MVC.png Graphic file (type png)
  <use asp_net-MVC.png>
-Package pdftex.def Info: asp_net-MVC.png used on input line 221.
+Package pdftex.def Info: asp_net-MVC.png used on input line 226.
 (pdftex.def)             Requested size: 56.9055pt x 56.90343pt.
 
-<html.png, id=46, 1027.84pt x 602.25pt>
+<html.png, id=52, 1027.84pt x 602.25pt>
 File: html.png Graphic file (type png)
  <use html.png>
-Package pdftex.def Info: html.png used on input line 224.
+Package pdftex.def Info: html.png used on input line 229.
 (pdftex.def)             Requested size: 56.9055pt x 33.3398pt.
 
-<sql.png, id=47, 941.5175pt x 238.8925pt>
+<sql.png, id=53, 941.5175pt x 238.8925pt>
 File: sql.png Graphic file (type png)
  <use sql.png>
-Package pdftex.def Info: sql.png used on input line 227.
+Package pdftex.def Info: sql.png used on input line 232.
 (pdftex.def)             Requested size: 56.9055pt x 14.43863pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 233.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 238.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 233.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 238.
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--235
-
- []
-
-[7 <./c_hasztag.png> <./asp_net-MVC.png> <./html.png> <./sql.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 236--242
+Underfull \hbox (badness 10000) in paragraph at lines 238--240
 
  []
 
-
-LaTeX Warning: Citation `asp' on page 8 undefined on input line 243.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 242--244
+[9 <./c_hasztag.png> <./asp_net-MVC.png> <./html.png> <./sql.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 241--247
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--248
-
- []
-
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 249--251
-
- []
+LaTeX Warning: Citation `asp' on page 10 undefined on input line 248.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--257
+Underfull \hbox (badness 10000) in paragraph at lines 247--249
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--260
+Underfull \hbox (badness 10000) in paragraph at lines 250--253
 
  []
 
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 283--286
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 254--256
 
  []
 
-<ntier.png, id=62, 499.8675pt x 439.6425pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 257--262
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--265
+
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 289--292
+
+ []
+
+[12] <ntier.png, id=72, 499.8675pt x 439.6425pt>
 File: ntier.png Graphic file (type png)
  <use ntier.png>
-Package pdftex.def Info: ntier.png used on input line 293.
+Package pdftex.def Info: ntier.png used on input line 299.
 (pdftex.def)             Requested size: 172.5pt x 151.71707pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (4.47292pt too wide) in paragraph at lines 299--300
+Overfull \hbox (4.47292pt too wide) in paragraph at lines 305--306
 \OT4/cmr/m/n/10 j¦-zy-ka plat-for-my (np. C#) j¦-zy-ków do opi-sów wy-gl¡-du st
 ro-ny (CSS, HTML,
  []
 
-[10] <System.png, id=66, 845.1575pt x 1147.28625pt>
+[13 <./ntier.png (PNG copy)>] <System.png, id=76, 845.1575pt x 1147.28625pt>
 File: System.png Graphic file (type png)
- <use System.png>
-Package pdftex.def Info: System.png used on input line 311.
+
+<use System.png>
+Package pdftex.def Info: System.png used on input line 317.
 (pdftex.def)             Requested size: 345.0pt x 468.3422pt.
- [11 <./ntier.png (PNG copy)>] [12 <./System.png>]
-<bazaIdentity.png, id=75, 697.10437pt x 511.9125pt>
+ [14] [15 <./System.png>]
+<bazaIdentity.png, id=84, 697.10437pt x 511.9125pt>
 File: bazaIdentity.png Graphic file (type png)
  <use bazaIdentity.png>
-Package pdftex.def Info: bazaIdentity.png used on input line 324.
+Package pdftex.def Info: bazaIdentity.png used on input line 330.
 (pdftex.def)             Requested size: 310.4979pt x 228.00734pt.
 
-<bazaStolik.png, id=76, 1690.81688pt x 947.79094pt>
+<bazaStolik.png, id=85, 1690.81688pt x 947.79094pt>
 File: bazaStolik.png Graphic file (type png)
  <use bazaStolik.png>
-Package pdftex.def Info: bazaStolik.png used on input line 331.
+Package pdftex.def Info: bazaStolik.png used on input line 337.
 (pdftex.def)             Requested size: 1690.81276pt x 947.78864pt.
 
-[13 <./bazaIdentity.png>]
+[16 <./bazaIdentity.png>]
 Overfull \vbox (87.45316pt too high) has occurred while \output is active []
 
 
-[14 <./bazaStolik.png>] <algo1.jpg, id=84, 563.10374pt x 427.5975pt>
+[17 <./bazaStolik.png>] <algo1.jpg, id=93, 563.10374pt x 427.5975pt>
 File: algo1.jpg Graphic file (type jpg)
 
 <use algo1.jpg>
-Package pdftex.def Info: algo1.jpg used on input line 349.
+Package pdftex.def Info: algo1.jpg used on input line 355.
 (pdftex.def)             Requested size: 241.49895pt x 183.38051pt.
- <algo2.jpg, id=85, 489.83pt x 709.65125pt>
+ <algo2.jpg, id=94, 489.83pt x 709.65125pt>
 File: algo2.jpg Graphic file (type jpg)
  <use algo2.jpg>
-Package pdftex.def Info: algo2.jpg used on input line 358.
+Package pdftex.def Info: algo2.jpg used on input line 364.
 (pdftex.def)             Requested size: 172.5pt x 249.90845pt.
 
-[15 <./algo1.jpg>] <algo3.jpg, id=89, 364.36125pt x 673.51625pt>
+[18 <./algo1.jpg>] <algo3.jpg, id=99, 364.36125pt x 673.51625pt>
 File: algo3.jpg Graphic file (type jpg)
 
 <use algo3.jpg>
-Package pdftex.def Info: algo3.jpg used on input line 368.
+Package pdftex.def Info: algo3.jpg used on input line 374.
 (pdftex.def)             Requested size: 172.5pt x 318.85474pt.
- [16 <./algo2.jpg>]
-<screens/index1.png, id=93, 1028.34187pt x 548.0475pt>
+ [19 <./algo2.jpg>]
+<screens/index1.png, id=103, 1028.34187pt x 548.0475pt>
 File: screens/index1.png Graphic file (type png)
 
 <use screens/index1.png>
-Package pdftex.def Info: screens/index1.png used on input line 380.
+Package pdftex.def Info: screens/index1.png used on input line 386.
 (pdftex.def)             Requested size: 345.0pt x 183.86673pt.
- [17 <./algo3.jpg>]
-<screens/index2.png, id=97, 1441.63594pt x 781.41937pt>
+ [20 <./algo3.jpg>]
+<screens/index2.png, id=107, 1441.63594pt x 781.41937pt>
 File: screens/index2.png Graphic file (type png)
 
 <use screens/index2.png>
-Package pdftex.def Info: screens/index2.png used on input line 387.
+Package pdftex.def Info: screens/index2.png used on input line 393.
 (pdftex.def)             Requested size: 345.0pt x 186.996pt.
 
-<screens/index3.png, id=98, 2614.5178pt x 1467.98438pt>
+<screens/index3.png, id=108, 2614.5178pt x 1467.98438pt>
 File: screens/index3.png Graphic file (type png)
 
 <use screens/index3.png>
-Package pdftex.def Info: screens/index3.png used on input line 394.
+Package pdftex.def Info: screens/index3.png used on input line 400.
 (pdftex.def)             Requested size: 345.0pt x 193.68942pt.
- [18 <./screens/index1.png> <./screens/index2.png>]
-<screens/index4.png, id=104, 1425.07407pt x 706.13812pt>
+ [21 <./screens/index1.png> <./screens/index2.png>]
+<screens/index4.png, id=113, 1425.07407pt x 706.13812pt>
 File: screens/index4.png Graphic file (type png)
 
 <use screens/index4.png>
-Package pdftex.def Info: screens/index4.png used on input line 401.
+Package pdftex.def Info: screens/index4.png used on input line 407.
 (pdftex.def)             Requested size: 345.0pt x 170.94197pt.
 
-<screens/register.png, id=105, 2929.94624pt x 1661.45718pt>
+<screens/register.png, id=114, 2929.94624pt x 1661.45718pt>
 File: screens/register.png Graphic file (type png)
 
 <use screens/register.png>
-Package pdftex.def Info: screens/register.png used on input line 410.
+Package pdftex.def Info: screens/register.png used on input line 416.
 (pdftex.def)             Requested size: 345.0pt x 195.6142pt.
- [19 <./screens/index3.png> <./screens/index4.png>]
-<screens/login.png, id=110, 2883.27188pt x 1621.55812pt>
+ [22 <./screens/index3.png> <./screens/index4.png>]
+<screens/login.png, id=119, 2883.27188pt x 1621.55812pt>
 File: screens/login.png Graphic file (type png)
 
 <use screens/login.png>
-Package pdftex.def Info: screens/login.png used on input line 417.
+Package pdftex.def Info: screens/login.png used on input line 423.
 (pdftex.def)             Requested size: 345.0pt x 194.00949pt.
- <screens/loged_in.png, id=111, 1008.01593pt x 48.18pt>
+ <screens/loged_in.png, id=120, 1008.01593pt x 48.18pt>
 File: screens/loged_in.png Graphic file (type png)
 
 <use screens/loged_in.png>
-Package pdftex.def Info: screens/loged_in.png used on input line 424.
+Package pdftex.def Info: screens/loged_in.png used on input line 430.
 (pdftex.def)             Requested size: 345.0pt x 16.48978pt.
 
-<screens/reset.png, id=112, 957.5775pt x 907.89188pt>
+<screens/reset.png, id=121, 957.5775pt x 907.89188pt>
 File: screens/reset.png Graphic file (type png)
  <use screens/reset.png>
-Package pdftex.def Info: screens/reset.png used on input line 431.
+Package pdftex.def Info: screens/reset.png used on input line 437.
 (pdftex.def)             Requested size: 345.0pt x 327.09018pt.
 
-[20 <./screens/register.png> <./screens/login.png> <./screens/loged_in.png>]
-<screens/account_profile.png, id=118, 1441.63594pt x 813.0375pt>
+[23 <./screens/register.png> <./screens/login.png> <./screens/loged_in.png>]
+<screens/account_profile.png, id=127, 1441.63594pt x 813.0375pt>
 File: screens/account_profile.png Graphic file (type png)
 
 <use screens/account_profile.png>
-Package pdftex.def Info: screens/account_profile.png used on input line 440.
+Package pdftex.def Info: screens/account_profile.png used on input line 446.
 (pdftex.def)             Requested size: 345.0pt x 194.56232pt.
- [21 <./screens/reset.png>]
-<screens/reservations_history.png, id=123, 1443.89438pt x 810.77907pt>
+ [24 <./screens/reset.png>]
+<screens/reservations_history.png, id=133, 1443.89438pt x 810.77907pt>
 File: screens/reservations_history.png Graphic file (type png)
 
 <use screens/reservations_history.png>
-Package pdftex.def Info: screens/reservations_history.png used on input line 44
-9.
+Package pdftex.def Info: screens/reservations_history.png used on input line 45
+5.
 (pdftex.def)             Requested size: 345.0pt x 193.72495pt.
 
-<screens/restaurants.png, id=124, 1431.09656pt x 708.39656pt>
+<screens/restaurants.png, id=134, 1431.09656pt x 708.39656pt>
 File: screens/restaurants.png Graphic file (type png)
 
 <use screens/restaurants.png>
-Package pdftex.def Info: screens/restaurants.png used on input line 458.
+Package pdftex.def Info: screens/restaurants.png used on input line 464.
 (pdftex.def)             Requested size: 345.0pt x 170.77528pt.
- [22 <./screens/account_profile.png> <./screens/reservations_history.png>]
-<screens/restaurant.png, id=129, 791.95876pt x 1331.72531pt>
+ [25 <./screens/account_profile.png> <./screens/reservations_history.png>]
+<screens/restaurant.png, id=139, 791.95876pt x 1331.72531pt>
 File: screens/restaurant.png Graphic file (type png)
 
 <use screens/restaurant.png>
-Package pdftex.def Info: screens/restaurant.png used on input line 465.
+Package pdftex.def Info: screens/restaurant.png used on input line 471.
 (pdftex.def)             Requested size: 345.0pt x 580.1493pt.
- [23 <./screens/restaurants.png>]
+ [26 <./screens/restaurants.png>]
 Overfull \vbox (52.1493pt too high) has occurred while \output is active []
 
 
-[24 <./screens/restaurant.png>]
-<screens/reservation.png, id=138, 1437.11906pt x 710.655pt>
+[27 <./screens/restaurant.png>]
+<screens/reservation.png, id=147, 1437.11906pt x 710.655pt>
 File: screens/reservation.png Graphic file (type png)
 
 <use screens/reservation.png>
-Package pdftex.def Info: screens/reservation.png used on input line 472.
+Package pdftex.def Info: screens/reservation.png used on input line 478.
 (pdftex.def)             Requested size: 345.0pt x 170.60405pt.
 
-<screens/reservation2.png, id=139, 1028.34187pt x 548.0475pt>
+<screens/reservation2.png, id=148, 1028.34187pt x 548.0475pt>
 File: screens/reservation2.png Graphic file (type png)
 
 <use screens/reservation2.png>
-Package pdftex.def Info: screens/reservation2.png used on input line 479.
+Package pdftex.def Info: screens/reservation2.png used on input line 485.
 (pdftex.def)             Requested size: 345.0pt x 183.86673pt.
- [25 <./screens/reservation.png> <./screens/reservation2.png>] <screens/about.p
-ng, id=144, 1427.3325pt x 712.16063pt>
+ [28 <./screens/reservation.png> <./screens/reservation2.png>] <screens/about.p
+ng, id=153, 1427.3325pt x 712.16063pt>
 File: screens/about.png Graphic file (type png)
 
 <use screens/about.png>
-Package pdftex.def Info: screens/about.png used on input line 488.
+Package pdftex.def Info: screens/about.png used on input line 494.
 (pdftex.def)             Requested size: 345.0pt x 172.12823pt.
 
-<screens/contact.png, id=145, 2948.01375pt x 1659.19875pt>
+<screens/contact.png, id=154, 2948.01375pt x 1659.19875pt>
 File: screens/contact.png Graphic file (type png)
 
 <use screens/contact.png>
-Package pdftex.def Info: screens/contact.png used on input line 495.
+Package pdftex.def Info: screens/contact.png used on input line 501.
 (pdftex.def)             Requested size: 345.0pt x 194.15839pt.
 
-<screens/register_rest_1.png, id=146, 1430.34375pt x 727.96968pt>
+<screens/register_rest_1.png, id=155, 1430.34375pt x 727.96968pt>
 File: screens/register_rest_1.png Graphic file (type png)
 
 <use screens/register_rest_1.png>
-Package pdftex.def Info: screens/register_rest_1.png used on input line 504.
+Package pdftex.def Info: screens/register_rest_1.png used on input line 510.
 (pdftex.def)             Requested size: 345.0pt x 175.5827pt.
- [26 <./screens/about.png> <./screens/contact.png>] <screens/register_rest_2.pn
-g, id=152, 1430.34375pt x 732.48656pt>
+ [29 <./screens/about.png> <./screens/contact.png>] <screens/register_rest_2.pn
+g, id=161, 1430.34375pt x 732.48656pt>
 File: screens/register_rest_2.png Graphic file (type png)
 
 <use screens/register_rest_2.png>
-Package pdftex.def Info: screens/register_rest_2.png used on input line 511.
+Package pdftex.def Info: screens/register_rest_2.png used on input line 517.
 (pdftex.def)             Requested size: 345.0pt x 176.67215pt.
 
-<screens/register_rest_3.png, id=153, 1425.07407pt x 723.45282pt>
+<screens/register_rest_3.png, id=162, 1425.07407pt x 723.45282pt>
 File: screens/register_rest_3.png Graphic file (type png)
 
 <use screens/register_rest_3.png>
-Package pdftex.def Info: screens/register_rest_3.png used on input line 518.
+Package pdftex.def Info: screens/register_rest_3.png used on input line 524.
 (pdftex.def)             Requested size: 345.0pt x 175.13353pt.
- [27 <./screens/register_rest_1.png> <./screens/register_rest_2.png>]
-<screens/register_rest_4.png, id=159, 1426.57968pt x 720.44156pt>
+ [30 <./screens/register_rest_1.png> <./screens/register_rest_2.png>]
+<screens/register_rest_4.png, id=169, 1426.57968pt x 720.44156pt>
 File: screens/register_rest_4.png Graphic file (type png)
 
 <use screens/register_rest_4.png>
-Package pdftex.def Info: screens/register_rest_4.png used on input line 525.
+Package pdftex.def Info: screens/register_rest_4.png used on input line 531.
 (pdftex.def)             Requested size: 345.0pt x 174.22867pt.
 
-<screens/menuRestaurant.png, id=160, 365.86688pt x 103.13531pt>
+<screens/menuRestaurant.png, id=170, 365.86688pt x 103.13531pt>
 File: screens/menuRestaurant.png Graphic file (type png)
 
 <use screens/menuRestaurant.png>
-Package pdftex.def Info: screens/menuRestaurant.png used on input line 537.
+Package pdftex.def Info: screens/menuRestaurant.png used on input line 543.
 (pdftex.def)             Requested size: 345.0pt x 97.25877pt.
- [28 <./screens/register_rest_3.png> <./screens/register_rest_4.png>]
-<screens/restaurantEdit.png, id=166, 1029.8475pt x 1062.97125pt>
+ [31 <./screens/register_rest_3.png> <./screens/register_rest_4.png>]
+<screens/restaurantEdit.png, id=176, 1029.8475pt x 1062.97125pt>
 File: screens/restaurantEdit.png Graphic file (type png)
 
 <use screens/restaurantEdit.png>
-Package pdftex.def Info: screens/restaurantEdit.png used on input line 544.
+Package pdftex.def Info: screens/restaurantEdit.png used on input line 550.
 (pdftex.def)             Requested size: 345.0pt x 356.08542pt.
 
-<screens/employees.png, id=167, 1028.34187pt x 548.0475pt>
+<screens/employees.png, id=177, 1028.34187pt x 548.0475pt>
 File: screens/employees.png Graphic file (type png)
 
 <use screens/employees.png>
-Package pdftex.def Info: screens/employees.png used on input line 550.
+Package pdftex.def Info: screens/employees.png used on input line 556.
 (pdftex.def)             Requested size: 345.0pt x 183.86673pt.
- [29 <./screens/menuRestaurant.png> <./screens/restaurantEdit.png>] <screens/em
-ployees2.png, id=172, 1028.34187pt x 548.0475pt>
+ [32 <./screens/menuRestaurant.png> <./screens/restaurantEdit.png>] <screens/em
+ployees2.png, id=182, 1028.34187pt x 548.0475pt>
 File: screens/employees2.png Graphic file (type png)
 
 <use screens/employees2.png>
-Package pdftex.def Info: screens/employees2.png used on input line 556.
+Package pdftex.def Info: screens/employees2.png used on input line 562.
 (pdftex.def)             Requested size: 345.0pt x 183.86673pt.
 
-<screens/restaurantRes.png, id=173, 1029.8475pt x 545.03625pt>
+<screens/restaurantRes.png, id=183, 1029.8475pt x 545.03625pt>
 File: screens/restaurantRes.png Graphic file (type png)
 
 <use screens/restaurantRes.png>
-Package pdftex.def Info: screens/restaurantRes.png used on input line 562.
+Package pdftex.def Info: screens/restaurantRes.png used on input line 568.
 (pdftex.def)             Requested size: 345.0pt x 182.58203pt.
- [30 <./screens/employees.png> <./screens/employees2.png>] <gantt.png, id=178, 
-888.31876pt x 488.82625pt>
+ [33 <./screens/employees.png> <./screens/employees2.png>] [34 <./screens/resta
+urantRes.png>]
+<gantt.png, id=190, 888.31876pt x 488.82625pt>
 File: gantt.png Graphic file (type png)
  <use gantt.png>
-Package pdftex.def Info: gantt.png used on input line 571.
-(pdftex.def)             Requested size: 241.49895pt x 132.88736pt.
+Package pdftex.def Info: gantt.png used on input line 579.
+(pdftex.def)             Requested size: 345.0pt x 189.84335pt.
 
-<gantt_real.png, id=179, 909.3975pt x 475.7775pt>
+<gantt_real.png, id=191, 909.3975pt x 475.7775pt>
 File: gantt_real.png Graphic file (type png)
  <use gantt_real.png>
-Package pdftex.def Info: gantt_real.png used on input line 580.
-(pdftex.def)             Requested size: 241.49895pt x 126.34178pt.
+Package pdftex.def Info: gantt_real.png used on input line 588.
+(pdftex.def)             Requested size: 345.0pt x 180.49966pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (14.33395pt too wide) in paragraph at lines 590--591
+Overfull \hbox (14.33395pt too wide) in paragraph at lines 598--599
 \OT4/cmr/m/n/10 Przed przy-st¡-pie-niem do pra-cy nad pro-jek-tem osza-co-wa-no
  kosz-ta pro-jek-tu uwzgl¦d-
  []
 
-[31 <./screens/restaurantRes.png> <./gantt.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 602--606
+[35 <./gantt.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 615--616
 
  []
 
-[32 <./gantt_real.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 624--626
+[36 <./gantt_real.png (PNG copy)>] [37]
+Underfull \hbox (badness 10000) in paragraph at lines 656--658
 
  []
 
-[33]
-LaTeX Font Info:    Try loading font information for OT4+cmtt on input line 651
+[38] [39]
+LaTeX Font Info:    Try loading font information for OT4+cmtt on input line 685
 .
  ("C:\Program Files\MiKTeX 2.9\tex\latex\polski\ot4cmtt.fd"
 File: ot4cmtt.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-Overfull \hbox (26.08247pt too wide) in paragraph at lines 654--656
+Overfull \hbox (26.08247pt too wide) in paragraph at lines 688--690
 \OT4/cmtt/m/n/10 https://docs.microsoft.com/pl-pl/aspnet/#pivot[]core&panel[]co
 re[]overview 
  []
 
-[34] (dokumentacja.aux)
+[40] (dokumentacja.lof)
+\tf@lof=\write4
+\openout4 = `dokumentacja.lof'.
+
+ [41] (dokumentacja.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1009,13 +1039,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3907 strings out of 493323
- 57732 string characters out of 3139067
- 120565 words of memory out of 3000000
- 7346 multiletter control sequences out of 15000+200000
+ 4104 strings out of 493323
+ 60244 string characters out of 3139067
+ 125110 words of memory out of 3000000
+ 7524 multiletter control sequences out of 15000+200000
  13720 words of font info for 37 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,9n,39p,1126b,316s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,13n,39p,1126b,322s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/pl/pltt.enc}{C:/Program Files/Mi
 KTeX 2.9/fonts/enc/dvips/pl/plit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvi
 ps/pl/plrm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/pl/plsc.enc}<C:/Pro
@@ -1027,9 +1057,9 @@ Program Files/MiKTeX 2.9/fonts/type1/public/pl/plr12.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/pl/plti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/pl/plti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pl/pltt1
 0.pfb>
-Output written on dokumentacja.pdf (35 pages, 28852246 bytes).
+Output written on dokumentacja.pdf (42 pages, 28860481 bytes).
 PDF statistics:
- 227 PDF objects out of 1000 (max. 8388607)
+ 251 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  226 words of extra memory for PDF output out of 10000 (max. 10000000)
 
